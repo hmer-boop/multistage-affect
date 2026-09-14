@@ -1,8 +1,8 @@
 # Multistage Affect Reproducibility Code
 
-This repository contains review-stage reproducibility materials for a multistage affect recognition benchmark on artwork images. It includes model inference scripts, cue-assisted inference scripts, evaluation utilities, a 760-item public label and metadata subset, a limited set of low-resolution Artmajeur image files, and a 120-item demo prediction package for quick metric checks.
+This repository contains review-stage reproducibility materials for a multistage affect recognition benchmark on artwork images. It includes model inference scripts, cue-assisted inference scripts, evaluation utilities, a 760-item public label and metadata subset, image files for the ArtMajeur-sourced items, and a 120-item demo prediction package for quick metric checks.
 
-The full dataset, non-Artmajeur image files, high-resolution images, private annotation workspace, and private acquisition pipeline are not included at this stage. Image access and provenance are documented in `docs/IMAGE_ACCESS_STATEMENT.md`, `docs/DATA_PROVENANCE.md`, and `data/release_subset_760/provenance/image_provenance_review.xlsx`.
+The full dataset, image files beyond the currently released ArtMajeur-sourced subset, private annotation workspace, and private acquisition pipeline are not included at this stage. Image access and provenance are documented in `docs/IMAGE_ACCESS_STATEMENT.md`, `docs/DATA_PROVENANCE.md`, and `data/release_subset_760/provenance/image_provenance_review.xlsx`.
 
 ## Repository Layout
 
@@ -49,14 +49,14 @@ Do not commit local `.env` files or API credentials.
 
 ## Data Included
 
-The review-stage subset provides labels, sanitized metadata, source/provenance tables, and a limited set of low-resolution Artmajeur images:
+The review-stage subset provides labels, sanitized metadata, source/provenance tables, and image files for the ArtMajeur-sourced items:
 
 ```text
 data/release_subset_760/
 ├── selected_ids.json
 ├── labels/gold_label.json
 ├── metadata/items_public.jsonl
-├── images_512/
+├── images/
 │   ├── README.md
 │   ├── artmajeur_images_manifest.csv
 │   └── artmajeur/
@@ -229,7 +229,7 @@ The registry inside each evaluation center maps model names to prediction paths.
 This repository excludes:
 
 - the full raw/high-resolution artwork image corpus;
-- non-Artmajeur image files whose source-site permission is still unresolved;
+- additional artwork image files beyond the currently released ArtMajeur-sourced subset;
 - full metadata and full gold labels;
 - complete prediction result files beyond the review-stage demo package;
 - private acquisition, upload, and hosting scripts;

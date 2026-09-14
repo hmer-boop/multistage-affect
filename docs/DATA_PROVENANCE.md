@@ -1,21 +1,21 @@
 # Data Provenance and Image Availability
 
-This repository is prepared for manuscript review. It includes code, selected labels, sanitized metadata, cue examples, demo predictions, and a limited set of low-resolution Artmajeur image files.
+This repository is prepared for manuscript review. It includes code, selected labels, sanitized metadata, cue examples, demo predictions, and image files for the ArtMajeur-sourced items.
 
 ## Image File Scope
 
-The image items are artwork images collected from public artist or artwork websites. Because source permissions differ by platform and artist, this review-stage release includes only the low-resolution 512 px files for Artmajeur-linked items whose platform permission has been clarified by the author.
+The image items are artwork images collected from public artist or artwork websites. For the peer-review-stage repository, we use a conservative redistribution policy: image files are included for the ArtMajeur-sourced samples that have received explicit permission from the rights holder/source platform, while the remaining released items are represented through labels, sanitized metadata, titles, and source/provenance links.
 
-The Artmajeur platform reply allows general non-commercial academic, research, and educational use of low-resolution images available on Artmajeur with proper attribution to the artist and Artmajeur. Copyright remains with each individual artist, and broader use or higher-resolution reuse should be requested from the artist directly.
+The ArtMajeur permission allows the ArtMajeur-sourced samples to be made available with the dataset for non-commercial academic, research, and educational use with proper attribution to the artist and ArtMajeur.
 
-Image files from other source sites are not included while their source-site replies remain unresolved. Those items remain link-only in the provenance tables.
+The absence of additional image files in this repository should not be interpreted as indicating that those labeled items are invalid or that their provenance is unavailable. They remain part of the 760-item review subset and are traceable through the provenance tables.
 
 ## What Is Included
 
 - `data/release_subset_760/labels/gold_label.json`: gold labels for the 760-item review subset.
 - `data/release_subset_760/metadata/items_public.jsonl`: sanitized metadata for the same subset.
-- `data/release_subset_760/images_512/artmajeur/`: included low-resolution Artmajeur image files.
-- `data/release_subset_760/images_512/artmajeur_images_manifest.csv`: item-to-image manifest for the included Artmajeur files.
+- `data/release_subset_760/images/artmajeur/`: included ArtMajeur image files.
+- `data/release_subset_760/images/artmajeur_images_manifest.csv`: item-to-image manifest for the included ArtMajeur files.
 - `data/release_subset_760/provenance/image_provenance_review.xlsx`: reviewer-facing provenance workbook sorted for lookup.
 - `data/release_subset_760/provenance/image_provenance_review.csv`: CSV version of the same reviewer-facing provenance table.
 - `data/release_subset_760/provenance/image_sources_manifest.csv`: item-level provenance worksheet.
@@ -33,6 +33,6 @@ Rows with blank `source_page_url` are still valid labeled data rows. The blank f
 
 ## Review Use
 
-Reviewers can inspect the released labels, metadata schema, cue format, included low-resolution Artmajeur images, inference scripts, and evaluation pipeline. The included demo prediction package allows metric recomputation without requiring paid API calls or access to unreleased image files.
+Reviewers can inspect the released labels, metadata schema, cue format, included ArtMajeur images, inference scripts, and evaluation pipeline. The included demo prediction package allows metric recomputation without requiring paid API calls or access to unreleased image files.
 
-For source sites that are not included as image files, reviewers can use the released URLs and titles to inspect the original websites. Researchers who need additional artwork images should obtain them from the original source websites and follow the applicable website and artist terms.
+For items that are not included as image files, reviewers can use the released URLs and titles to inspect the original websites. Researchers who need additional artwork images should obtain them from the original source websites and follow the applicable website and artist terms.
