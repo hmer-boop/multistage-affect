@@ -1,0 +1,1442 @@
+[
+  {
+    "item_id": "045cf7836f97",
+    "image": "../images_raw/045cf7836f97.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "warm",
+      "visual_complexity": "moderate",
+      "spatial_pressure": "balanced",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "24fdad87bf82",
+    "image": "../images_raw/24fdad87bf82.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "high_contrast",
+      "color_tone": "desaturated",
+      "visual_complexity": "simple",
+      "spatial_pressure": "enclosed",
+      "overall_dynamics": "static"
+    }
+  },
+  {
+    "item_id": "27f70741ed56",
+    "image": "../images_raw/27f70741ed56.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "globally_bright",
+      "color_tone": "monochrome",
+      "visual_complexity": "moderate",
+      "spatial_pressure": "balanced",
+      "overall_dynamics": "static"
+    }
+  },
+  {
+    "item_id": "87cb06976dd9",
+    "image": "../images_raw/87cb06976dd9.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "dominant_dark_region",
+      "color_tone": "highly_saturated",
+      "visual_complexity": "moderate",
+      "spatial_pressure": "open",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "b7fbd2171438",
+    "image": "../images_raw/b7fbd2171438.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "monochrome",
+      "visual_complexity": "moderate",
+      "spatial_pressure": "balanced",
+      "overall_dynamics": "static"
+    }
+  },
+  {
+    "item_id": "6e0c819329e8",
+    "image": "../images_raw/6e0c819329e8.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "warm",
+      "visual_complexity": "moderate",
+      "spatial_pressure": "crowded",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "b07e178970f7",
+    "image": "../images_raw/b07e178970f7.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "high_contrast",
+      "color_tone": "warm",
+      "visual_complexity": "complex",
+      "spatial_pressure": "balanced",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "e5ed6f14235a",
+    "image": "../images_raw/e5ed6f14235a.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "low_contrast",
+      "color_tone": "warm",
+      "visual_complexity": "moderate",
+      "spatial_pressure": "enclosed",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "6195aa32b2eb",
+    "image": "../images_raw/6195aa32b2eb.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "low_contrast",
+      "color_tone": "desaturated",
+      "visual_complexity": "very_complex",
+      "spatial_pressure": "balanced",
+      "overall_dynamics": "dynamic"
+    }
+  },
+  {
+    "item_id": "47a1671704bf",
+    "image": "../images_raw/47a1671704bf.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "globally_bright",
+      "color_tone": "desaturated",
+      "visual_complexity": "moderate",
+      "spatial_pressure": "crowded",
+      "overall_dynamics": "dynamic"
+    }
+  },
+  {
+    "item_id": "242613ff3ffe",
+    "image": "../images_raw/242613ff3ffe.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "warm",
+      "visual_complexity": "very_simple",
+      "spatial_pressure": "balanced",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "9b6d4abbdc6d",
+    "image": "../images_raw/9b6d4abbdc6d.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "low_contrast",
+      "color_tone": "warm",
+      "visual_complexity": "simple",
+      "spatial_pressure": "open",
+      "overall_dynamics": "static"
+    }
+  },
+  {
+    "item_id": "515a5b3133a9",
+    "image": "../images_raw/515a5b3133a9.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "dominant_dark_region",
+      "color_tone": "neutral",
+      "visual_complexity": "very_simple",
+      "spatial_pressure": "crowded",
+      "overall_dynamics": "dynamic"
+    }
+  },
+  {
+    "item_id": "5ca8137ec1fb",
+    "image": "../images_raw/5ca8137ec1fb.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "neutral",
+      "visual_complexity": "moderate",
+      "spatial_pressure": "balanced",
+      "overall_dynamics": "dynamic"
+    }
+  },
+  {
+    "item_id": "4922f64f7b32",
+    "image": "../images_raw/4922f64f7b32.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "dominant_dark_region",
+      "color_tone": "highly_saturated",
+      "visual_complexity": "very_simple",
+      "spatial_pressure": "open",
+      "overall_dynamics": "dynamic"
+    }
+  },
+  {
+    "item_id": "efe5131a57bc",
+    "image": "../images_raw/efe5131a57bc.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "neutral",
+      "visual_complexity": "complex",
+      "spatial_pressure": "crowded",
+      "overall_dynamics": "dynamic"
+    }
+  },
+  {
+    "item_id": "fc6792dea129",
+    "image": "../images_raw/fc6792dea129.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "dominant_dark_region",
+      "color_tone": "neutral",
+      "visual_complexity": "very_complex",
+      "spatial_pressure": "crowded",
+      "overall_dynamics": "dynamic"
+    }
+  },
+  {
+    "item_id": "1278288f5df4",
+    "image": "../images_raw/1278288f5df4.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "high_contrast",
+      "color_tone": "neutral",
+      "visual_complexity": "moderate",
+      "spatial_pressure": "crowded",
+      "overall_dynamics": "dynamic"
+    }
+  },
+  {
+    "item_id": "b46fdcbc728d",
+    "image": "../images_raw/b46fdcbc728d.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "globally_dark",
+      "color_tone": "neutral",
+      "visual_complexity": "moderate",
+      "spatial_pressure": "crowded",
+      "overall_dynamics": "dynamic"
+    }
+  },
+  {
+    "item_id": "7abd4bc6b427",
+    "image": "../images_raw/7abd4bc6b427.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "desaturated",
+      "visual_complexity": "complex",
+      "spatial_pressure": "crowded",
+      "overall_dynamics": "dynamic"
+    }
+  },
+  {
+    "item_id": "95a4e412b22a",
+    "image": "../images_raw/95a4e412b22a.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "cool",
+      "visual_complexity": "moderate",
+      "spatial_pressure": "balanced",
+      "overall_dynamics": "static"
+    }
+  },
+  {
+    "item_id": "5ddffd24eba9",
+    "image": "../images_raw/5ddffd24eba9.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "globally_dark",
+      "color_tone": "highly_saturated",
+      "visual_complexity": "very_simple",
+      "spatial_pressure": "open",
+      "overall_dynamics": "static"
+    }
+  },
+  {
+    "item_id": "3610cd44fa81",
+    "image": "../images_raw/3610cd44fa81.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "dominant_dark_region",
+      "color_tone": "warm",
+      "visual_complexity": "very_simple",
+      "spatial_pressure": "enclosed",
+      "overall_dynamics": "static"
+    }
+  },
+  {
+    "item_id": "eb62df0eaf42",
+    "image": "../images_raw/eb62df0eaf42.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "warm",
+      "visual_complexity": "moderate",
+      "spatial_pressure": "balanced",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "f86f7f65b5a8",
+    "image": "../images_raw/f86f7f65b5a8.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "high_contrast",
+      "color_tone": "warm",
+      "visual_complexity": "complex",
+      "spatial_pressure": "crowded",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "4affcc120492",
+    "image": "../images_raw/4affcc120492.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "cool",
+      "visual_complexity": "simple",
+      "spatial_pressure": "crowded",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "9ee9010c96e9",
+    "image": "../images_raw/9ee9010c96e9.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "dominant_dark_region",
+      "color_tone": "warm",
+      "visual_complexity": "complex",
+      "spatial_pressure": "crowded",
+      "overall_dynamics": "dynamic"
+    }
+  },
+  {
+    "item_id": "2a288cf75bb4",
+    "image": "../images_raw/2a288cf75bb4.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "desaturated",
+      "visual_complexity": "simple",
+      "spatial_pressure": "open",
+      "overall_dynamics": "static"
+    }
+  },
+  {
+    "item_id": "faa3326226b8",
+    "image": "../images_raw/faa3326226b8.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "high_contrast",
+      "color_tone": "cool",
+      "visual_complexity": "very_simple",
+      "spatial_pressure": "open",
+      "overall_dynamics": "dynamic"
+    }
+  },
+  {
+    "item_id": "19b57d09297c",
+    "image": "../images_raw/19b57d09297c.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "high_contrast",
+      "color_tone": "warm",
+      "visual_complexity": "very_simple",
+      "spatial_pressure": "balanced",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "0eab1a07395f",
+    "image": "../images_raw/0eab1a07395f.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "dominant_bright_region",
+      "color_tone": "neutral",
+      "visual_complexity": "complex",
+      "spatial_pressure": "balanced",
+      "overall_dynamics": "static"
+    }
+  },
+  {
+    "item_id": "3d308fb78d69",
+    "image": "../images_raw/3d308fb78d69.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "desaturated",
+      "visual_complexity": "very_simple",
+      "spatial_pressure": "balanced",
+      "overall_dynamics": "static"
+    }
+  },
+  {
+    "item_id": "a7d5207f9ea6",
+    "image": "../images_raw/a7d5207f9ea6.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "dominant_dark_region",
+      "color_tone": "warm",
+      "visual_complexity": "complex",
+      "spatial_pressure": "compressed",
+      "overall_dynamics": "high_tension"
+    }
+  },
+  {
+    "item_id": "c53eb2a3583f",
+    "image": "../images_raw/c53eb2a3583f.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "warm",
+      "visual_complexity": "moderate",
+      "spatial_pressure": "open",
+      "overall_dynamics": "static"
+    }
+  },
+  {
+    "item_id": "abd845aba974",
+    "image": "../images_raw/abd845aba974.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "warm",
+      "visual_complexity": "complex",
+      "spatial_pressure": "balanced",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "87a73bb5c9d3",
+    "image": "../images_raw/87a73bb5c9d3.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "cool",
+      "visual_complexity": "moderate",
+      "spatial_pressure": "balanced",
+      "overall_dynamics": "static"
+    }
+  },
+  {
+    "item_id": "f42bae375c68",
+    "image": "../images_raw/f42bae375c68.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "dominant_dark_region",
+      "color_tone": "cool",
+      "visual_complexity": "complex",
+      "spatial_pressure": "crowded",
+      "overall_dynamics": "dynamic"
+    }
+  },
+  {
+    "item_id": "55552ff4cf01",
+    "image": "../images_raw/55552ff4cf01.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "dominant_dark_region",
+      "color_tone": "cool",
+      "visual_complexity": "very_complex",
+      "spatial_pressure": "enclosed",
+      "overall_dynamics": "dynamic"
+    }
+  },
+  {
+    "item_id": "8e74b6358482",
+    "image": "../images_raw/8e74b6358482.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "desaturated",
+      "visual_complexity": "simple",
+      "spatial_pressure": "balanced",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "19973d5d3049",
+    "image": "../images_raw/19973d5d3049.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "neutral",
+      "visual_complexity": "moderate",
+      "spatial_pressure": "balanced",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "ea48b59e8c1c",
+    "image": "../images_raw/ea48b59e8c1c.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "neutral",
+      "visual_complexity": "simple",
+      "spatial_pressure": "balanced",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "a2cddf0e6eeb",
+    "image": "../images_raw/a2cddf0e6eeb.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "globally_bright",
+      "color_tone": "warm",
+      "visual_complexity": "moderate",
+      "spatial_pressure": "balanced",
+      "overall_dynamics": "dynamic"
+    }
+  },
+  {
+    "item_id": "3dc81be3aee9",
+    "image": "../images_raw/3dc81be3aee9.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "dominant_dark_region",
+      "color_tone": "highly_saturated",
+      "visual_complexity": "simple",
+      "spatial_pressure": "crowded",
+      "overall_dynamics": "dynamic"
+    }
+  },
+  {
+    "item_id": "d54cb4df8208",
+    "image": "../images_raw/d54cb4df8208.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "warm",
+      "visual_complexity": "moderate",
+      "spatial_pressure": "balanced",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "748bb34ebcd9",
+    "image": "../images_raw/748bb34ebcd9.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "dominant_dark_region",
+      "color_tone": "desaturated",
+      "visual_complexity": "simple",
+      "spatial_pressure": "enclosed",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "b50f282ba6de",
+    "image": "../images_raw/b50f282ba6de.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "globally_dark",
+      "color_tone": "warm",
+      "visual_complexity": "simple",
+      "spatial_pressure": "compressed",
+      "overall_dynamics": "high_tension"
+    }
+  },
+  {
+    "item_id": "221db885cfc0",
+    "image": "../images_raw/221db885cfc0.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "highly_saturated",
+      "visual_complexity": "complex",
+      "spatial_pressure": "open",
+      "overall_dynamics": "dynamic"
+    }
+  },
+  {
+    "item_id": "46a9f9cc9b63",
+    "image": "../images_raw/46a9f9cc9b63.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "dominant_dark_region",
+      "color_tone": "warm",
+      "visual_complexity": "complex",
+      "spatial_pressure": "crowded",
+      "overall_dynamics": "static"
+    }
+  },
+  {
+    "item_id": "788ab7182de5",
+    "image": "../images_raw/788ab7182de5.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "dominant_dark_region",
+      "color_tone": "warm",
+      "visual_complexity": "complex",
+      "spatial_pressure": "balanced",
+      "overall_dynamics": "static"
+    }
+  },
+  {
+    "item_id": "ffd8d1668aa7",
+    "image": "../images_raw/ffd8d1668aa7.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "desaturated",
+      "visual_complexity": "moderate",
+      "spatial_pressure": "open",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "523e1fe9c615",
+    "image": "../images_raw/523e1fe9c615.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "low_contrast",
+      "color_tone": "cool",
+      "visual_complexity": "very_simple",
+      "spatial_pressure": "open",
+      "overall_dynamics": "static"
+    }
+  },
+  {
+    "item_id": "a8be5b1177b3",
+    "image": "../images_raw/a8be5b1177b3.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "dominant_dark_region",
+      "color_tone": "neutral",
+      "visual_complexity": "very_simple",
+      "spatial_pressure": "open",
+      "overall_dynamics": "static"
+    }
+  },
+  {
+    "item_id": "ae3fa8bc7708",
+    "image": "../images_raw/ae3fa8bc7708.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "high_contrast",
+      "color_tone": "cool",
+      "visual_complexity": "complex",
+      "spatial_pressure": "crowded",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "2a946166afb9",
+    "image": "../images_raw/2a946166afb9.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "warm",
+      "visual_complexity": "complex",
+      "spatial_pressure": "open",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "63f2d0524afc",
+    "image": "../images_raw/63f2d0524afc.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "dominant_dark_region",
+      "color_tone": "neutral",
+      "visual_complexity": "simple",
+      "spatial_pressure": "balanced",
+      "overall_dynamics": "dynamic"
+    }
+  },
+  {
+    "item_id": "a23cc0280622",
+    "image": "../images_raw/a23cc0280622.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "low_contrast",
+      "color_tone": "cool",
+      "visual_complexity": "very_simple",
+      "spatial_pressure": "balanced",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "438a768615a3",
+    "image": "../images_raw/438a768615a3.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "low_contrast",
+      "color_tone": "desaturated",
+      "visual_complexity": "very_simple",
+      "spatial_pressure": "enclosed",
+      "overall_dynamics": "static"
+    }
+  },
+  {
+    "item_id": "91cdf479eba2",
+    "image": "../images_raw/91cdf479eba2.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "warm",
+      "visual_complexity": "very_complex",
+      "spatial_pressure": "open",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "976844de6774",
+    "image": "../images_raw/976844de6774.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "globally_bright",
+      "color_tone": "monochrome",
+      "visual_complexity": "complex",
+      "spatial_pressure": "crowded",
+      "overall_dynamics": "dynamic"
+    }
+  },
+  {
+    "item_id": "c3ee5fe292f6",
+    "image": "../images_raw/c3ee5fe292f6.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "low_contrast",
+      "color_tone": "neutral",
+      "visual_complexity": "moderate",
+      "spatial_pressure": "balanced",
+      "overall_dynamics": "static"
+    }
+  },
+  {
+    "item_id": "183674d32892",
+    "image": "../images_raw/183674d32892.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "dominant_dark_region",
+      "color_tone": "desaturated",
+      "visual_complexity": "very_simple",
+      "spatial_pressure": "open",
+      "overall_dynamics": "dynamic"
+    }
+  },
+  {
+    "item_id": "e20f640cb640",
+    "image": "../images_raw/e20f640cb640.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "dominant_bright_region",
+      "color_tone": "warm",
+      "visual_complexity": "moderate",
+      "spatial_pressure": "open",
+      "overall_dynamics": "static"
+    }
+  },
+  {
+    "item_id": "7c5ed693e0b8",
+    "image": "../images_raw/7c5ed693e0b8.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "dominant_dark_region",
+      "color_tone": "cool",
+      "visual_complexity": "complex",
+      "spatial_pressure": "crowded",
+      "overall_dynamics": "chaotic"
+    }
+  },
+  {
+    "item_id": "da0956903985",
+    "image": "../images_raw/da0956903985.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "cool",
+      "visual_complexity": "very_complex",
+      "spatial_pressure": "crowded",
+      "overall_dynamics": "chaotic"
+    }
+  },
+  {
+    "item_id": "ecd948f21ee2",
+    "image": "../images_raw/ecd948f21ee2.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "low_contrast",
+      "color_tone": "warm",
+      "visual_complexity": "very_simple",
+      "spatial_pressure": "open",
+      "overall_dynamics": "static"
+    }
+  },
+  {
+    "item_id": "bd8854389702",
+    "image": "../images_raw/bd8854389702.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "dominant_dark_region",
+      "color_tone": "desaturated",
+      "visual_complexity": "very_simple",
+      "spatial_pressure": "enclosed",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "7a495437dea8",
+    "image": "../images_raw/7a495437dea8.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "highly_saturated",
+      "visual_complexity": "moderate",
+      "spatial_pressure": "compressed",
+      "overall_dynamics": "dynamic"
+    }
+  },
+  {
+    "item_id": "42719eb12cd8",
+    "image": "../images_raw/42719eb12cd8.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "globally_dark",
+      "color_tone": "desaturated",
+      "visual_complexity": "very_simple",
+      "spatial_pressure": "open",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "a48245b8db6d",
+    "image": "../images_raw/a48245b8db6d.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "warm",
+      "visual_complexity": "simple",
+      "spatial_pressure": "compressed",
+      "overall_dynamics": "high_tension"
+    }
+  },
+  {
+    "item_id": "08915938087b",
+    "image": "../images_raw/08915938087b.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "neutral",
+      "visual_complexity": "moderate",
+      "spatial_pressure": "balanced",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "70b2a8615a4b",
+    "image": "../images_raw/70b2a8615a4b.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "warm",
+      "visual_complexity": "moderate",
+      "spatial_pressure": "balanced",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "c4013276a121",
+    "image": "../images_raw/c4013276a121.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "globally_dark",
+      "color_tone": "monochrome",
+      "visual_complexity": "moderate",
+      "spatial_pressure": "open",
+      "overall_dynamics": "static"
+    }
+  },
+  {
+    "item_id": "e2a7d995adb0",
+    "image": "../images_raw/e2a7d995adb0.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "dominant_dark_region",
+      "color_tone": "highly_saturated",
+      "visual_complexity": "complex",
+      "spatial_pressure": "balanced",
+      "overall_dynamics": "dynamic"
+    }
+  },
+  {
+    "item_id": "5015332e0585",
+    "image": "../images_raw/5015332e0585.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "dominant_dark_region",
+      "color_tone": "highly_saturated",
+      "visual_complexity": "very_complex",
+      "spatial_pressure": "open",
+      "overall_dynamics": "dynamic"
+    }
+  },
+  {
+    "item_id": "e07a026d6ab4",
+    "image": "../images_raw/e07a026d6ab4.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "dominant_dark_region",
+      "color_tone": "warm",
+      "visual_complexity": "very_complex",
+      "spatial_pressure": "crowded",
+      "overall_dynamics": "high_tension"
+    }
+  },
+  {
+    "item_id": "377ffc885c72",
+    "image": "../images_raw/377ffc885c72.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "neutral",
+      "visual_complexity": "simple",
+      "spatial_pressure": "compressed",
+      "overall_dynamics": "dynamic"
+    }
+  },
+  {
+    "item_id": "b17675cc0db9",
+    "image": "../images_raw/b17675cc0db9.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "globally_bright",
+      "color_tone": "highly_saturated",
+      "visual_complexity": "very_simple",
+      "spatial_pressure": "balanced",
+      "overall_dynamics": "static"
+    }
+  },
+  {
+    "item_id": "0c006cf8053d",
+    "image": "../images_raw/0c006cf8053d.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "high_contrast",
+      "color_tone": "desaturated",
+      "visual_complexity": "very_complex",
+      "spatial_pressure": "crowded",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "40fe75077c7b",
+    "image": "../images_raw/40fe75077c7b.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "warm",
+      "visual_complexity": "complex",
+      "spatial_pressure": "crowded",
+      "overall_dynamics": "dynamic"
+    }
+  },
+  {
+    "item_id": "35eb9ca69596",
+    "image": "../images_raw/35eb9ca69596.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "warm",
+      "visual_complexity": "complex",
+      "spatial_pressure": "open",
+      "overall_dynamics": "static"
+    }
+  },
+  {
+    "item_id": "01d0c51f3d96",
+    "image": "../images_raw/01d0c51f3d96.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "high_contrast",
+      "color_tone": "cool",
+      "visual_complexity": "complex",
+      "spatial_pressure": "crowded",
+      "overall_dynamics": "dynamic"
+    }
+  },
+  {
+    "item_id": "817c85485534",
+    "image": "../images_raw/817c85485534.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "warm",
+      "visual_complexity": "moderate",
+      "spatial_pressure": "balanced",
+      "overall_dynamics": "static"
+    }
+  },
+  {
+    "item_id": "23bc9e46b629",
+    "image": "../images_raw/23bc9e46b629.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "dominant_dark_region",
+      "color_tone": "desaturated",
+      "visual_complexity": "very_simple",
+      "spatial_pressure": "enclosed",
+      "overall_dynamics": "static"
+    }
+  },
+  {
+    "item_id": "6b7d864c888e",
+    "image": "../images_raw/6b7d864c888e.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "cool",
+      "visual_complexity": "very_complex",
+      "spatial_pressure": "crowded",
+      "overall_dynamics": "dynamic"
+    }
+  },
+  {
+    "item_id": "2bed6c4e4715",
+    "image": "../images_raw/2bed6c4e4715.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "dominant_dark_region",
+      "color_tone": "warm",
+      "visual_complexity": "complex",
+      "spatial_pressure": "enclosed",
+      "overall_dynamics": "static"
+    }
+  },
+  {
+    "item_id": "9e8f13c0ad90",
+    "image": "../images_raw/9e8f13c0ad90.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "highly_saturated",
+      "visual_complexity": "moderate",
+      "spatial_pressure": "open",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "b22b74c45116",
+    "image": "../images_raw/b22b74c45116.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "warm",
+      "visual_complexity": "complex",
+      "spatial_pressure": "enclosed",
+      "overall_dynamics": "static"
+    }
+  },
+  {
+    "item_id": "e0001cbfcf57",
+    "image": "../images_raw/e0001cbfcf57.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "low_contrast",
+      "color_tone": "desaturated",
+      "visual_complexity": "moderate",
+      "spatial_pressure": "balanced",
+      "overall_dynamics": "static"
+    }
+  },
+  {
+    "item_id": "7aaac1e1c8c4",
+    "image": "../images_raw/7aaac1e1c8c4.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "desaturated",
+      "visual_complexity": "simple",
+      "spatial_pressure": "balanced",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "39873a36bcf9",
+    "image": "../images_raw/39873a36bcf9.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "desaturated",
+      "visual_complexity": "very_simple",
+      "spatial_pressure": "open",
+      "overall_dynamics": "static"
+    }
+  },
+  {
+    "item_id": "c10ed07770f8",
+    "image": "../images_raw/c10ed07770f8.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "warm",
+      "visual_complexity": "simple",
+      "spatial_pressure": "balanced",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "b58dd966280f",
+    "image": "../images_raw/b58dd966280f.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "cool",
+      "visual_complexity": "moderate",
+      "spatial_pressure": "open",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "88341da6f333",
+    "image": "../images_raw/88341da6f333.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "warm",
+      "visual_complexity": "very_simple",
+      "spatial_pressure": "open",
+      "overall_dynamics": "static"
+    }
+  },
+  {
+    "item_id": "f3ed98efeb12",
+    "image": "../images_raw/f3ed98efeb12.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "desaturated",
+      "visual_complexity": "moderate",
+      "spatial_pressure": "open",
+      "overall_dynamics": "static"
+    }
+  },
+  {
+    "item_id": "a134c9d00012",
+    "image": "../images_raw/a134c9d00012.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "neutral",
+      "visual_complexity": "moderate",
+      "spatial_pressure": "balanced",
+      "overall_dynamics": "static"
+    }
+  },
+  {
+    "item_id": "479fd5f57272",
+    "image": "../images_raw/479fd5f57272.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "dominant_dark_region",
+      "color_tone": "cool",
+      "visual_complexity": "moderate",
+      "spatial_pressure": "compressed",
+      "overall_dynamics": "dynamic"
+    }
+  },
+  {
+    "item_id": "c82ef27f1f7e",
+    "image": "../images_raw/c82ef27f1f7e.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "low_contrast",
+      "color_tone": "warm",
+      "visual_complexity": "very_simple",
+      "spatial_pressure": "open",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "9d7a11e43bc7",
+    "image": "../images_raw/9d7a11e43bc7.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "cool",
+      "visual_complexity": "very_complex",
+      "spatial_pressure": "crowded",
+      "overall_dynamics": "chaotic"
+    }
+  },
+  {
+    "item_id": "e7fa6fec758e",
+    "image": "../images_raw/e7fa6fec758e.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "dominant_dark_region",
+      "color_tone": "warm",
+      "visual_complexity": "moderate",
+      "spatial_pressure": "crowded",
+      "overall_dynamics": "dynamic"
+    }
+  },
+  {
+    "item_id": "a0b6a4908570",
+    "image": "../images_raw/a0b6a4908570.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "dominant_dark_region",
+      "color_tone": "neutral",
+      "visual_complexity": "moderate",
+      "spatial_pressure": "compressed",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "279901b23290",
+    "image": "../images_raw/279901b23290.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "dominant_dark_region",
+      "color_tone": "highly_saturated",
+      "visual_complexity": "very_complex",
+      "spatial_pressure": "crowded",
+      "overall_dynamics": "chaotic"
+    }
+  },
+  {
+    "item_id": "7efde0416584",
+    "image": "../images_raw/7efde0416584.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "cool",
+      "visual_complexity": "complex",
+      "spatial_pressure": "open",
+      "overall_dynamics": "dynamic"
+    }
+  },
+  {
+    "item_id": "9c85df9ec3f4",
+    "image": "../images_raw/9c85df9ec3f4.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "low_contrast",
+      "color_tone": "desaturated",
+      "visual_complexity": "very_simple",
+      "spatial_pressure": "open",
+      "overall_dynamics": "static"
+    }
+  },
+  {
+    "item_id": "a211e992d223",
+    "image": "../images_raw/a211e992d223.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "dominant_dark_region",
+      "color_tone": "warm",
+      "visual_complexity": "very_simple",
+      "spatial_pressure": "open",
+      "overall_dynamics": "static"
+    }
+  },
+  {
+    "item_id": "f842d398a03b",
+    "image": "../images_raw/f842d398a03b.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "neutral",
+      "visual_complexity": "complex",
+      "spatial_pressure": "balanced",
+      "overall_dynamics": "dynamic"
+    }
+  },
+  {
+    "item_id": "86f653917ec2",
+    "image": "../images_raw/86f653917ec2.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "warm",
+      "visual_complexity": "complex",
+      "spatial_pressure": "crowded",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "6d8969f1935f",
+    "image": "../images_raw/6d8969f1935f.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "warm",
+      "visual_complexity": "moderate",
+      "spatial_pressure": "balanced",
+      "overall_dynamics": "dynamic"
+    }
+  },
+  {
+    "item_id": "5f11912239eb",
+    "image": "../images_raw/5f11912239eb.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "cool",
+      "visual_complexity": "complex",
+      "spatial_pressure": "crowded",
+      "overall_dynamics": "dynamic"
+    }
+  },
+  {
+    "item_id": "c19529de59b1",
+    "image": "../images_raw/c19529de59b1.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "warm",
+      "visual_complexity": "moderate",
+      "spatial_pressure": "balanced",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "a232f0ae3120",
+    "image": "../images_raw/a232f0ae3120.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "globally_dark",
+      "color_tone": "neutral",
+      "visual_complexity": "moderate",
+      "spatial_pressure": "balanced",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "87616f06a1b7",
+    "image": "../images_raw/87616f06a1b7.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "desaturated",
+      "visual_complexity": "simple",
+      "spatial_pressure": "balanced",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "5c8a823a1628",
+    "image": "../images_raw/5c8a823a1628.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "neutral",
+      "visual_complexity": "very_complex",
+      "spatial_pressure": "crowded",
+      "overall_dynamics": "chaotic"
+    }
+  },
+  {
+    "item_id": "8878fac415a0",
+    "image": "../images_raw/8878fac415a0.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "monochrome",
+      "visual_complexity": "very_complex",
+      "spatial_pressure": "crowded",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "c5c336fbf19a",
+    "image": "../images_raw/c5c336fbf19a.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "cool",
+      "visual_complexity": "moderate",
+      "spatial_pressure": "compressed",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "280f3c27a098",
+    "image": "../images_raw/280f3c27a098.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "highly_saturated",
+      "visual_complexity": "moderate",
+      "spatial_pressure": "open",
+      "overall_dynamics": "static"
+    }
+  },
+  {
+    "item_id": "2fbe3007a8eb",
+    "image": "../images_raw/2fbe3007a8eb.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "dominant_dark_region",
+      "color_tone": "cool",
+      "visual_complexity": "complex",
+      "spatial_pressure": "crowded",
+      "overall_dynamics": "chaotic"
+    }
+  },
+  {
+    "item_id": "4608fd34f358",
+    "image": "../images_raw/4608fd34f358.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "neutral",
+      "visual_complexity": "moderate",
+      "spatial_pressure": "balanced",
+      "overall_dynamics": "static"
+    }
+  },
+  {
+    "item_id": "c97b54472654",
+    "image": "../images_raw/c97b54472654.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "dominant_dark_region",
+      "color_tone": "warm",
+      "visual_complexity": "very_simple",
+      "spatial_pressure": "balanced",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "a4fcd8aa1030",
+    "image": "../images_raw/a4fcd8aa1030.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "low_contrast",
+      "color_tone": "highly_saturated",
+      "visual_complexity": "simple",
+      "spatial_pressure": "open",
+      "overall_dynamics": "mild_dynamic"
+    }
+  },
+  {
+    "item_id": "73ffe2c58df2",
+    "image": "../images_raw/73ffe2c58df2.jpg",
+    "stage": 1,
+    "global_cues": {
+      "brightness_pattern": "normal",
+      "color_tone": "highly_saturated",
+      "visual_complexity": "very_complex",
+      "spatial_pressure": "crowded",
+      "overall_dynamics": "dynamic"
+    }
+  }
+]

@@ -1,0 +1,1202 @@
+[
+  {
+    "item_id": "045cf7836f97",
+    "image": "../images_raw/045cf7836f97.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "多种颜色的花朵和一个白色花瓶",
+      "relations": "花朵从花瓶中伸出并向四周展开",
+      "scene_or_event": "静态展示的花卉插花场景"
+    }
+  },
+  {
+    "item_id": "24fdad87bf82",
+    "image": "../images_raw/24fdad87bf82.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "火车车厢内的座椅、窗外的满月、座椅上的红色火箭模型",
+      "relations": "红色火箭模型放置在右侧座椅上，与左侧空座椅形成对比",
+      "scene_or_event": "夜晚火车车厢内的静态展示"
+    }
+  },
+  {
+    "item_id": "27f70741ed56",
+    "image": "../images_raw/27f70741ed56.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "混凝土墙面、坐在长椅上的黑色剪影人物、蓝色涂鸦文字",
+      "relations": "黑色剪影人物坐在长椅上，与墙面上的涂鸦并置",
+      "scene_or_event": "墙前长椅上的静态人物场景"
+    }
+  },
+  {
+    "item_id": "87cb06976dd9",
+    "image": "../images_raw/87cb06976dd9.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "高耸的山体、蓝色的湖面、夜空中的星星和月亮",
+      "relations": "湖面与山体相邻，形成自然边界",
+      "scene_or_event": "夜晚湖畔的自然景观"
+    }
+  },
+  {
+    "item_id": "b7fbd2171438",
+    "image": "../images_raw/b7fbd2171438.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "穿着西装的长颈动物头部与相机",
+      "relations": "动物头部与西装身体结合形成对比",
+      "scene_or_event": "动物头部与人类服饰结合的静态展示"
+    }
+  },
+  {
+    "item_id": "6e0c819329e8",
+    "image": "../images_raw/6e0c819329e8.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "牦牛群和一个站在中间的人",
+      "relations": "人站在牦牛群的中央位置",
+      "scene_or_event": "牧人在草原上放牧牦牛的场景"
+    }
+  },
+  {
+    "item_id": "b07e178970f7",
+    "image": "../images_raw/b07e178970f7.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "椭圆形和不规则形状的棕色图案",
+      "relations": "左侧的椭圆形图案与右侧的椭圆形图案并列排列",
+      "scene_or_event": "静态展示的几何图案组合"
+    }
+  },
+  {
+    "item_id": "e5ed6f14235a",
+    "image": "../images_raw/e5ed6f14235a.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "拱形结构、红色建筑、圆形光源",
+      "relations": "拱形结构将红色建筑和圆形光源框在一起",
+      "scene_or_event": "建筑群在夜空下的静态展示"
+    }
+  },
+  {
+    "item_id": "6195aa32b2eb",
+    "image": "../images_raw/6195aa32b2eb.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "飞翔的猫头鹰、弯月、破旧的小屋",
+      "relations": "猫头鹰在小屋上方飞行，与地面形成对比",
+      "scene_or_event": "夜晚森林中猫头鹰飞翔的场景"
+    }
+  },
+  {
+    "item_id": "47a1671704bf",
+    "image": "../images_raw/47a1671704bf.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "坐在地上的一群人、远处的黄色车辆、两侧的高大建筑",
+      "relations": "人群坐在地面上，靠近建筑物的一侧",
+      "scene_or_event": "城市街道上人们聚集休息的场景"
+    }
+  },
+  {
+    "item_id": "242613ff3ffe",
+    "image": "../images_raw/242613ff3ffe.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "两个面具状的人物形象与轮廓柔和的背景色块",
+      "relations": "人物形象在朦胧背景中并列排列",
+      "scene_or_event": "静态展示的抽象人物形象"
+    }
+  },
+  {
+    "item_id": "9b6d4abbdc6d",
+    "image": "../images_raw/9b6d4abbdc6d.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "茅草屋、干草堆、光秃的树木",
+      "relations": "茅草屋与干草堆并列排列在地面上",
+      "scene_or_event": "乡村田野中的静态景观"
+    }
+  },
+  {
+    "item_id": "515a5b3133a9",
+    "image": "../images_raw/515a5b3133a9.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "燃烧的建筑群与浓烟",
+      "relations": "火焰和烟雾包围建筑物",
+      "scene_or_event": "建筑物火灾的场景"
+    }
+  },
+  {
+    "item_id": "5ca8137ec1fb",
+    "image": "../images_raw/5ca8137ec1fb.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "坐在窗边的抽象人物、窗外的树木和瀑布",
+      "relations": "抽象人物面向窗外的自然景观",
+      "scene_or_event": "窗边静坐的抽象人物与自然景观的对比"
+    }
+  },
+  {
+    "item_id": "4922f64f7b32",
+    "image": "../images_raw/4922f64f7b32.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "三个人影与一个持光物体的人影",
+      "relations": "持光物体的人影朝向三个人影奔跑",
+      "scene_or_event": "昏暗背景下的人物互动场景"
+    }
+  },
+  {
+    "item_id": "efe5131a57bc",
+    "image": "../images_raw/efe5131a57bc.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "抽象的动物形象与背景色块",
+      "relations": "动物形象被深色笔触包围",
+      "scene_or_event": "画面呈现一只动物的静态展示"
+    }
+  },
+  {
+    "item_id": "fc6792dea129",
+    "image": "../images_raw/fc6792dea129.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "举起拳头的人物和卡通狗形象",
+      "relations": "人物与卡通狗并列排列在画面中央",
+      "scene_or_event": "人物和卡通狗共同展示的场景"
+    }
+  },
+  {
+    "item_id": "1278288f5df4",
+    "image": "../images_raw/1278288f5df4.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "多个人物形象与几何图形结构",
+      "relations": "人物形象被几何图形包围并分隔",
+      "scene_or_event": "多重图像与几何形状的组合展示"
+    }
+  },
+  {
+    "item_id": "b46fdcbc728d",
+    "image": "../images_raw/b46fdcbc728d.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "竹筏、穿斗笠的人物、篮子和鱼",
+      "relations": "人物在竹筏上排列并相互靠近",
+      "scene_or_event": "水面上竹筏上的人物活动场景"
+    }
+  },
+  {
+    "item_id": "7abd4bc6b427",
+    "image": "../images_raw/7abd4bc6b427.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "竖立的细长线条与轮廓柔和的人形结构",
+      "relations": "人形结构分布在细长线条之间，形成交错排列",
+      "scene_or_event": "抽象的城市景观状态"
+    }
+  },
+  {
+    "item_id": "95a4e412b22a",
+    "image": "../images_raw/95a4e412b22a.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "两名穿着传统服饰的女性和一根立柱",
+      "relations": "一名女性靠在立柱上，另一名女性站在旁边",
+      "scene_or_event": "两名女性在户外背景前的静态展示"
+    }
+  },
+  {
+    "item_id": "5ddffd24eba9",
+    "image": "../images_raw/5ddffd24eba9.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "握手的黑白手与两把手枪",
+      "relations": "黑白手握在一起并各持一把手枪",
+      "scene_or_event": "红色背景下的握手与手枪展示"
+    }
+  },
+  {
+    "item_id": "3610cd44fa81",
+    "image": "../images_raw/3610cd44fa81.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "车厢内的座位和窗外的风景",
+      "relations": "人物坐在车厢座位上，面向窗外",
+      "scene_or_event": "列车行驶中的车厢内部场景"
+    }
+  },
+  {
+    "item_id": "eb62df0eaf42",
+    "image": "../images_raw/eb62df0eaf42.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "高耸的山脉、工厂建筑、两只藏羚羊",
+      "relations": "一只藏羚羊攀爬在电线杆上，另一只站在地面上",
+      "scene_or_event": "山脉前的工业建筑与动物共存的场景"
+    }
+  },
+  {
+    "item_id": "f86f7f65b5a8",
+    "image": "../images_raw/f86f7f65b5a8.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "三个人物与四只猫",
+      "relations": "每个人物怀中各抱着一只猫",
+      "scene_or_event": "室内环境中人物与猫的合影"
+    }
+  },
+  {
+    "item_id": "4affcc120492",
+    "image": "../images_raw/4affcc120492.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "穿着红色袍子的僧侣们、石阶、手持乐器的僧侣",
+      "relations": "僧侣们紧密坐在一起，部分僧侣手持乐器",
+      "scene_or_event": "一群僧侣坐在石阶上休息"
+    }
+  },
+  {
+    "item_id": "9ee9010c96e9",
+    "image": "../images_raw/9ee9010c96e9.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "推车的两个人和挑担的一个人，满载水果的车和担子，树枝上的黄叶",
+      "relations": "推车的人与挑担的人在同一条道路上行进",
+      "scene_or_event": "街道上水果商贩行走的场景"
+    }
+  },
+  {
+    "item_id": "2a288cf75bb4",
+    "image": "../images_raw/2a288cf75bb4.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "宇航员和月球表面",
+      "relations": "宇航员漂浮在月球表面上方",
+      "scene_or_event": "宇航员在太空中漂浮的场景"
+    }
+  },
+  {
+    "item_id": "faa3326226b8",
+    "image": "../images_raw/faa3326226b8.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "倒立在水中的两条腿、乌云密布的天空、远处的地平线",
+      "relations": "两条腿从水中伸出，与水面形成对比",
+      "scene_or_event": "水面上方的倒立腿部场景"
+    }
+  },
+  {
+    "item_id": "19b57d09297c",
+    "image": "../images_raw/19b57d09297c.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "黑色不规则形状、黄色弧形、红色曲线、纸板纹理",
+      "relations": "红色曲线穿过黑色不规则形状和黄色弧形之间。",
+      "scene_or_event": "多种形状和颜色的静态组合"
+    }
+  },
+  {
+    "item_id": "0eab1a07395f",
+    "image": "../images_raw/0eab1a07395f.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "多色调的女性肖像",
+      "relations": "面部色块之间形成对比",
+      "scene_or_event": "静态展示的女性肖像"
+    }
+  },
+  {
+    "item_id": "3d308fb78d69",
+    "image": "../images_raw/3d308fb78d69.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "一只大龙虾、旧报纸、交错的绳子",
+      "relations": "龙虾被绳子捆绑在旧报纸上",
+      "scene_or_event": "静态展示的龙虾与报纸的组合"
+    }
+  },
+  {
+    "item_id": "a7d5207f9ea6",
+    "image": "../images_raw/a7d5207f9ea6.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "戴红色皇冠的人物头像",
+      "relations": "人物的嘴巴张开，双手握拳",
+      "scene_or_event": "人物在黑暗背景中呈现"
+    }
+  },
+  {
+    "item_id": "c53eb2a3583f",
+    "image": "../images_raw/c53eb2a3583f.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "白色房屋、土黄色地面、黑色小狗",
+      "relations": "小狗站在地面上，靠近房屋的前方",
+      "scene_or_event": "乡村道路旁的房屋与小狗的静态场景"
+    }
+  },
+  {
+    "item_id": "abd845aba974",
+    "image": "../images_raw/abd845aba974.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "坐在长椅上的几个人，背景中的建筑物和远处的水面",
+      "relations": "人物彼此靠近坐在一起，形成一个紧密的群体",
+      "scene_or_event": "几个人在户外休息的场景"
+    }
+  },
+  {
+    "item_id": "87a73bb5c9d3",
+    "image": "../images_raw/87a73bb5c9d3.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "两个持花的女性和背景中的时钟",
+      "relations": "两名女性面对面站立，手中各持一束花",
+      "scene_or_event": "两名女性在时钟前相对而立的场景"
+    }
+  },
+  {
+    "item_id": "f42bae375c68",
+    "image": "../images_raw/f42bae375c68.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "色彩斑斓的石块堆积",
+      "relations": "石块堆积在地面上，与背景的夜空形成对比",
+      "scene_or_event": "夜空下的石块堆积状态"
+    }
+  },
+  {
+    "item_id": "55552ff4cf01",
+    "image": "../images_raw/55552ff4cf01.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "高脚玻璃碗中的圆形物体",
+      "relations": "圆形物体堆叠在高脚玻璃碗内",
+      "scene_or_event": "静态展示的玻璃碗与其内物体"
+    }
+  },
+  {
+    "item_id": "8e74b6358482",
+    "image": "../images_raw/8e74b6358482.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "大型鹦鹉的头部和上半身",
+      "relations": "鹦鹉的喙与羽毛形成对比",
+      "scene_or_event": "静态展示的鹦鹉形象"
+    }
+  },
+  {
+    "item_id": "19973d5d3049",
+    "image": "../images_raw/19973d5d3049.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "坐在椅子上的人物与乐器",
+      "relations": "人物双手握持乐器并演奏",
+      "scene_or_event": "户外背景中的人物演奏场景"
+    }
+  },
+  {
+    "item_id": "ea48b59e8c1c",
+    "image": "../images_raw/ea48b59e8c1c.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "穿长袍的男子、墙上的奔马图、桌上的绘画工具",
+      "relations": "男子站在桌子旁，手持画笔，面向墙上的奔马图",
+      "scene_or_event": "室内绘画创作的场景"
+    }
+  },
+  {
+    "item_id": "a2cddf0e6eeb",
+    "image": "../images_raw/a2cddf0e6eeb.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "拼接的人物面孔与抽象色块",
+      "relations": "人物面孔与色块交错融合",
+      "scene_or_event": "静态展示的抽象人物形象"
+    }
+  },
+  {
+    "item_id": "3dc81be3aee9",
+    "image": "../images_raw/3dc81be3aee9.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "蓝色和白色的矩形结构，黄色和黑色的图案",
+      "relations": "黄色和黑色的图案覆盖在蓝色和白色矩形上",
+      "scene_or_event": "多层色块和图案的静态组合"
+    }
+  },
+  {
+    "item_id": "d54cb4df8208",
+    "image": "../images_raw/d54cb4df8208.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "积雪覆盖的树木、街道上的行人、远处的建筑物",
+      "relations": "行人沿着街道两侧排列，与树木形成对比",
+      "scene_or_event": "冬季城市街道的日常景象"
+    }
+  },
+  {
+    "item_id": "748bb34ebcd9",
+    "image": "../images_raw/748bb34ebcd9.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "轮廓柔和的人物形象与垂直色彩线条",
+      "relations": "人物形象被垂直色彩线条部分遮挡",
+      "scene_or_event": "静态展示的人物形象与色彩交织"
+    }
+  },
+  {
+    "item_id": "b50f282ba6de",
+    "image": "../images_raw/b50f282ba6de.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "两头黑色公牛",
+      "relations": "两头公牛正用角互相顶撞",
+      "scene_or_event": "公牛在红色背景上进行对抗"
+    }
+  },
+  {
+    "item_id": "221db885cfc0",
+    "image": "../images_raw/221db885cfc0.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "轮廓柔和的色块与流动的线条",
+      "relations": "色块之间相互交融并无明显界限",
+      "scene_or_event": "色彩交织的抽象状态"
+    }
+  },
+  {
+    "item_id": "46a9f9cc9b63",
+    "image": "../images_raw/46a9f9cc9b63.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "中央坐姿人物、两侧站立人物、底部跪拜人物",
+      "relations": "中央坐姿人物被两侧站立人物环绕",
+      "scene_or_event": "雕刻风格的宗教场景展示"
+    }
+  },
+  {
+    "item_id": "788ab7182de5",
+    "image": "../images_raw/788ab7182de5.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "坐着的人物和桌上的石膏头像",
+      "relations": "人物与石膏头像并置在画面中",
+      "scene_or_event": "室内静态展示的场景"
+    }
+  },
+  {
+    "item_id": "ffd8d1668aa7",
+    "image": "../images_raw/ffd8d1668aa7.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "地面上的人物与垂直的线条结构",
+      "relations": "人物分散排列在地面上，与垂直线条形成对照",
+      "scene_or_event": "静态展示的抽象景观"
+    }
+  },
+  {
+    "item_id": "523e1fe9c615",
+    "image": "../images_raw/523e1fe9c615.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": null,
+      "relations": null,
+      "scene_or_event": null
+    }
+  },
+  {
+    "item_id": "a8be5b1177b3",
+    "image": "../images_raw/a8be5b1177b3.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "紫色的人类头骨",
+      "relations": "头骨在黑色背景上悬浮",
+      "scene_or_event": "静态展示的头骨形象"
+    }
+  },
+  {
+    "item_id": "ae3fa8bc7708",
+    "image": "../images_raw/ae3fa8bc7708.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "两位穿着花纹服饰的女性和背景中的花瓶",
+      "relations": "两位女性并排站立，彼此靠近",
+      "scene_or_event": "室内展示的两位女性形象"
+    }
+  },
+  {
+    "item_id": "2a946166afb9",
+    "image": "../images_raw/2a946166afb9.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "两个人物、光秃的树、飞鸟",
+      "relations": "人物站在树的左侧，彼此手拉手",
+      "scene_or_event": "日落时分的开放空地场景"
+    }
+  },
+  {
+    "item_id": "63f2d0524afc",
+    "image": "../images_raw/63f2d0524afc.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "两个人物、悬浮的圆形颗粒结构、背景中的朦胧形状",
+      "relations": "两个人物在圆形颗粒结构的下方并作出防御姿态",
+      "scene_or_event": "人物在面对悬浮物体的场景"
+    }
+  },
+  {
+    "item_id": "a23cc0280622",
+    "image": "../images_raw/a23cc0280622.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "戴大帽子的朦胧人物形象",
+      "relations": "人物的帽子与背景色块形成对比",
+      "scene_or_event": "展示朦胧人物形象的静态画面"
+    }
+  },
+  {
+    "item_id": "438a768615a3",
+    "image": "../images_raw/438a768615a3.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "穿着传统服饰的儿童和背对的成年人",
+      "relations": "儿童站在成年人前面，面向观众",
+      "scene_or_event": "室内环境中人物的静态展示"
+    }
+  },
+  {
+    "item_id": "91cdf479eba2",
+    "image": "../images_raw/91cdf479eba2.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "房屋、花丛、正在劳作的两个人",
+      "relations": "两个人在花丛中劳作，靠近房屋一侧",
+      "scene_or_event": "乡村花园中人们进行园艺活动的场景"
+    }
+  },
+  {
+    "item_id": "976844de6774",
+    "image": "../images_raw/976844de6774.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "穿着厚重衣物的五个人和一张装满鱼的渔网",
+      "relations": "五个人围绕渔网站立并共同拉起渔网",
+      "scene_or_event": "捕捞鱼类的场景"
+    }
+  },
+  {
+    "item_id": "c3ee5fe292f6",
+    "image": "../images_raw/c3ee5fe292f6.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "石像、持卡片的人物、背景十字架",
+      "relations": "人物站在石像旁边，手持卡片",
+      "scene_or_event": "墓地背景中的人物静态展示"
+    }
+  },
+  {
+    "item_id": "183674d32892",
+    "image": "../images_raw/183674d32892.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "两名正在摔跤的人物、夜空中的明亮月亮、海岸线",
+      "relations": "两名人物在海岸线上互相摔跤并紧密接触",
+      "scene_or_event": "夜晚海岸边的摔跤场景"
+    }
+  },
+  {
+    "item_id": "e20f640cb640",
+    "image": "../images_raw/e20f640cb640.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "地球、蓝色台灯、几何图案边框",
+      "relations": "台灯位于画面右侧，与远处的地平线形成对比",
+      "scene_or_event": "外太空背景下的静态展示"
+    }
+  },
+  {
+    "item_id": "7c5ed693e0b8",
+    "image": "../images_raw/7c5ed693e0b8.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "红色发光团与弯曲线条",
+      "relations": "弯曲线条从红色发光团向外延伸并交错",
+      "scene_or_event": "发光团与线条交织的静态展示"
+    }
+  },
+  {
+    "item_id": "da0956903985",
+    "image": "../images_raw/da0956903985.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "密集的螺旋形和波浪形结构",
+      "relations": "螺旋形结构与波浪形结构交错排列",
+      "scene_or_event": "复杂纹理的静态展示"
+    }
+  },
+  {
+    "item_id": "ecd948f21ee2",
+    "image": "../images_raw/ecd948f21ee2.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "橙色猫咪的面部和爪子",
+      "relations": "猫咪的面部和爪子相互靠近，形成一个整体形象",
+      "scene_or_event": "猫咪处于休息状态"
+    }
+  },
+  {
+    "item_id": "bd8854389702",
+    "image": "../images_raw/bd8854389702.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "黑色墨迹与白色背景",
+      "relations": "墨迹在白色背景上形成对比",
+      "scene_or_event": "静态展示的抽象墨迹图案"
+    }
+  },
+  {
+    "item_id": "7a495437dea8",
+    "image": "../images_raw/7a495437dea8.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "红色背景上的几何形状和线条",
+      "relations": "黄色和红色区域通过黑色线条分隔",
+      "scene_or_event": "抽象的几何形状和色块的静态展示"
+    }
+  },
+  {
+    "item_id": "42719eb12cd8",
+    "image": "../images_raw/42719eb12cd8.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "钟楼、骑自行车的人、彩虹、飞鸟",
+      "relations": "骑自行车的人在钟楼顶部骑行，飞鸟在彩虹上方飞翔",
+      "scene_or_event": "夜空下的钟楼与彩虹场景"
+    }
+  },
+  {
+    "item_id": "a48245b8db6d",
+    "image": "../images_raw/a48245b8db6d.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "被多只手覆盖的面部、黄色花纹背景、扑克牌符号",
+      "relations": "手紧紧抓住面部并覆盖眼睛和嘴巴",
+      "scene_or_event": "面部被多只手控制的状态"
+    }
+  },
+  {
+    "item_id": "08915938087b",
+    "image": "../images_raw/08915938087b.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "两个人和两头水牛",
+      "relations": "两个人站在水牛旁边，水牛被绳子牵引",
+      "scene_or_event": "阳光下的田野场景"
+    }
+  },
+  {
+    "item_id": "70b2a8615a4b",
+    "image": "../images_raw/70b2a8615a4b.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "街道两旁的建筑和树木，行走的人群，悬挂的红旗",
+      "relations": "人群沿着街道行走，与建筑和树木形成对比",
+      "scene_or_event": "街道上人群活动的场景"
+    }
+  },
+  {
+    "item_id": "c4013276a121",
+    "image": "../images_raw/c4013276a121.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "草地上的多把椅子和一只站立的猩猩",
+      "relations": "猩猩位于椅子前方，手捂住嘴巴",
+      "scene_or_event": "空旷草地上静止的椅子与猩猩的场景"
+    }
+  },
+  {
+    "item_id": "e2a7d995adb0",
+    "image": "../images_raw/e2a7d995adb0.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "两个蓝色人形轮廓与红色背景",
+      "relations": "较小的人形位于较大人形的前方并稍微偏右",
+      "scene_or_event": "两个蓝色人形在红色和橙色背景前静止呈现"
+    }
+  },
+  {
+    "item_id": "5015332e0585",
+    "image": "../images_raw/5015332e0585.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "高耸的岩石结构、远处的山脉、夜空中的星星和行星",
+      "relations": "岩石结构在画面左侧前景中突出，与远处的山脉形成对比",
+      "scene_or_event": "夜空下的多彩地貌景观"
+    }
+  },
+  {
+    "item_id": "e07a026d6ab4",
+    "image": "../images_raw/e07a026d6ab4.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "三个抽象人形与一只鸟",
+      "relations": "左侧人形肩上停着一只鸟，右侧人形面向左侧人形",
+      "scene_or_event": "三个抽象人形在红色背景前的静态展示"
+    }
+  },
+  {
+    "item_id": "377ffc885c72",
+    "image": "../images_raw/377ffc885c72.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "倾斜的人物形象与背景中的高大结构",
+      "relations": "人物被高大结构支撑并倾斜向上",
+      "scene_or_event": "人物在明亮背景前的静态展示"
+    }
+  },
+  {
+    "item_id": "b17675cc0db9",
+    "image": "../images_raw/b17675cc0db9.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "粉色头罩、绿色卷发、黄色服装",
+      "relations": "人物坐在椅子上，头部被粉色头罩覆盖",
+      "scene_or_event": "室内静态展示的发型设计场景"
+    }
+  },
+  {
+    "item_id": "0c006cf8053d",
+    "image": "../images_raw/0c006cf8053d.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "三个人形轮廓，背景中有多个简化的人头轮廓",
+      "relations": "橙色和黑色人形轮廓包围蓝色人形轮廓",
+      "scene_or_event": "画面展示了一个家庭般的聚集状态"
+    }
+  },
+  {
+    "item_id": "40fe75077c7b",
+    "image": "../images_raw/40fe75077c7b.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "多彩的几何形状和轮廓柔和的植物形态",
+      "relations": "几何形状与植物形态交错排列，形成复杂的层次",
+      "scene_or_event": "静态展示的抽象画面"
+    }
+  },
+  {
+    "item_id": "35eb9ca69596",
+    "image": "../images_raw/35eb9ca69596.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "雕像半身、悬挂的绳结、飞鸟形状的阴影",
+      "relations": "绳结悬挂在飞鸟形状的阴影上方",
+      "scene_or_event": "雕像与天空背景的静态展示"
+    }
+  },
+  {
+    "item_id": "01d0c51f3d96",
+    "image": "../images_raw/01d0c51f3d96.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "垂直排列的矩形块与红色水平线条",
+      "relations": "红色线条穿过矩形块形成交叉结构",
+      "scene_or_event": "多层次的抽象几何图案展示"
+    }
+  },
+  {
+    "item_id": "817c85485534",
+    "image": "../images_raw/817c85485534.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "坐着的老人，身穿深色外套，佩戴多枚勋章",
+      "relations": "老人坐在椅子上，背景是红色墙面和黄色文字",
+      "scene_or_event": "静态展示的老人肖像"
+    }
+  },
+  {
+    "item_id": "23bc9e46b629",
+    "image": "../images_raw/23bc9e46b629.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "两个人物形象与翅膀形状的耳饰",
+      "relations": "前景人物的手放在胸前，背景人物部分隐藏在阴影中",
+      "scene_or_event": "两个人物在黑暗背景中的静态展示"
+    }
+  },
+  {
+    "item_id": "6b7d864c888e",
+    "image": "../images_raw/6b7d864c888e.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "层叠的山体与蜿蜒的道路",
+      "relations": "道路在山体之间蜿蜒穿行，形成对比",
+      "scene_or_event": "复杂的山地景观"
+    }
+  },
+  {
+    "item_id": "2bed6c4e4715",
+    "image": "../images_raw/2bed6c4e4715.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "两个人形和一只橙色鸟",
+      "relations": "橙色鸟站在戴皇冠的人形肩膀上",
+      "scene_or_event": "两个人形并排站立的静态场景"
+    }
+  },
+  {
+    "item_id": "9e8f13c0ad90",
+    "image": "../images_raw/9e8f13c0ad90.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "高大建筑物、黄色墙面、绿色地面",
+      "relations": "建筑物围绕着黄色墙面排列",
+      "scene_or_event": "城市中的建筑群景观"
+    }
+  },
+  {
+    "item_id": "b22b74c45116",
+    "image": "../images_raw/b22b74c45116.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "一只大熊和两只小熊",
+      "relations": "小熊被大熊的身体包围",
+      "scene_or_event": "大熊与小熊共同呈现的静态场景"
+    }
+  },
+  {
+    "item_id": "e0001cbfcf57",
+    "image": "../images_raw/e0001cbfcf57.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "一只站在木杆上的鸟",
+      "relations": "鸟相对于背景的物体处于前景位置",
+      "scene_or_event": "鸟静止地站在木杆上"
+    }
+  },
+  {
+    "item_id": "7aaac1e1c8c4",
+    "image": "../images_raw/7aaac1e1c8c4.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "穿着厚重衣物的四个人",
+      "relations": "成年人弯腰与孩子互动",
+      "scene_or_event": "寒冷环境中人们的交流场景"
+    }
+  },
+  {
+    "item_id": "39873a36bcf9",
+    "image": "../images_raw/39873a36bcf9.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "雕像、画框、椅子",
+      "relations": "椅子面向画框中的雕像，形成对照关系",
+      "scene_or_event": "画框内展示雕像的静态场景"
+    }
+  },
+  {
+    "item_id": "c10ed07770f8",
+    "image": "../images_raw/c10ed07770f8.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "大型机械结构、聚集的人群、堆叠的砖块",
+      "relations": "人群围绕在大型机械结构周围",
+      "scene_or_event": "工地上人群活动的场景"
+    }
+  },
+  {
+    "item_id": "b58dd966280f",
+    "image": "../images_raw/b58dd966280f.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "红色花朵的树、站立的人形、飞翔的白色鸟群",
+      "relations": "树的枝干向右延伸，靠近站立的人形",
+      "scene_or_event": "树下站立的人形与天空中飞翔的鸟群"
+    }
+  },
+  {
+    "item_id": "88341da6f333",
+    "image": "../images_raw/88341da6f333.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "高耸的山体、低垂的云层、湖面上的小船",
+      "relations": "小船在湖面上漂浮，与远处的山体形成对照",
+      "scene_or_event": "湖面与山体共同构成的自然景观"
+    }
+  },
+  {
+    "item_id": "f3ed98efeb12",
+    "image": "../images_raw/f3ed98efeb12.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "广阔的绿色平原和灰色的天空",
+      "relations": "绿色平原与灰色天空在地平线上相接",
+      "scene_or_event": "静态展示的自然景观"
+    }
+  },
+  {
+    "item_id": "a134c9d00012",
+    "image": "../images_raw/a134c9d00012.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "戴防毒面具的女性、手持花盆的双手、背景中的秋季树林",
+      "relations": "女性双手捧着花盆，面具与花盆形成对比",
+      "scene_or_event": "女性站立在秋季树林中的静态场景"
+    }
+  },
+  {
+    "item_id": "479fd5f57272",
+    "image": "../images_raw/479fd5f57272.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "轮廓柔和的人形轮廓与垂直流淌的色彩线条",
+      "relations": "人形轮廓被色彩线条部分覆盖和朦胧",
+      "scene_or_event": "色彩交错覆盖的人形状态"
+    }
+  },
+  {
+    "item_id": "c82ef27f1f7e",
+    "image": "../images_raw/c82ef27f1f7e.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "高耸的山体、低垂的云层、散落的花朵",
+      "relations": "山体被云层包围，花朵悬浮在空中",
+      "scene_or_event": "日落时分的山间云海景观"
+    }
+  },
+  {
+    "item_id": "9d7a11e43bc7",
+    "image": "../images_raw/9d7a11e43bc7.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "白色和黑色的抽象形状",
+      "relations": "白色形状在黑色背景上交错排列",
+      "scene_or_event": "抽象的形状交织状态"
+    }
+  },
+  {
+    "item_id": "e7fa6fec758e",
+    "image": "../images_raw/e7fa6fec758e.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "穿着工作服的工人和大型机械设备",
+      "relations": "工人围绕在机械设备周围进行操作",
+      "scene_or_event": "工厂内工人正在进行生产作业"
+    }
+  },
+  {
+    "item_id": "a0b6a4908570",
+    "image": "../images_raw/a0b6a4908570.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "轮廓柔和的人脸形象与抽象色块",
+      "relations": "人脸形象与背景色块交叠融合",
+      "scene_or_event": "静态展示的混合画面"
+    }
+  },
+  {
+    "item_id": "279901b23290",
+    "image": "../images_raw/279901b23290.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "中心的圆形色块与周围的多彩斑点",
+      "relations": "圆形色块向外扩散并与斑点交错排列",
+      "scene_or_event": "多彩斑点围绕中心色块的静态展示"
+    }
+  },
+  {
+    "item_id": "7efde0416584",
+    "image": "../images_raw/7efde0416584.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "高耸的细长线条、反射的水面、分散的人物形象",
+      "relations": "人物形象排列在细长线条之间，与水面反射形成对称",
+      "scene_or_event": "静态展示的抽象景观"
+    }
+  },
+  {
+    "item_id": "9c85df9ec3f4",
+    "image": "../images_raw/9c85df9ec3f4.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "几何形状的建筑结构、远处的水面、背景中的山脉",
+      "relations": "建筑结构与水面之间形成对照",
+      "scene_or_event": "呈现建筑与自然景观的静态状态"
+    }
+  },
+  {
+    "item_id": "a211e992d223",
+    "image": "../images_raw/a211e992d223.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "坐在椅子上的年长男性",
+      "relations": "男性的手指轻触下巴，另一只手持香烟",
+      "scene_or_event": "室内静态展示的男性肖像"
+    }
+  },
+  {
+    "item_id": "f842d398a03b",
+    "image": "../images_raw/f842d398a03b.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "多彩的女性肖像与几何形状",
+      "relations": "几何形状与女性肖像相互交织并覆盖",
+      "scene_or_event": "静态展示的多彩人物形象"
+    }
+  },
+  {
+    "item_id": "86f653917ec2",
+    "image": "../images_raw/86f653917ec2.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "高大的绿色植物、坐在桌旁的人群、传统建筑的屋顶",
+      "relations": "绿色植物在前景中遮挡部分人群和建筑",
+      "scene_or_event": "户外庭院中人们聚集在桌旁的场景"
+    }
+  },
+  {
+    "item_id": "6d8969f1935f",
+    "image": "../images_raw/6d8969f1935f.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "抽象风格的牛形轮廓",
+      "relations": "牛形轮廓与背景色块形成对比",
+      "scene_or_event": "静态展示的牛形象"
+    }
+  },
+  {
+    "item_id": "5f11912239eb",
+    "image": "../images_raw/5f11912239eb.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "色彩斑斓的抽象色块与线条",
+      "relations": "色块与线条交错排列，形成层次感",
+      "scene_or_event": "多彩的抽象画面展示"
+    }
+  },
+  {
+    "item_id": "c19529de59b1",
+    "image": "../images_raw/c19529de59b1.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "两头大象和周围的树林",
+      "relations": "小象紧跟在大象旁边，似乎在模仿其行为",
+      "scene_or_event": "森林中大象行走的场景"
+    }
+  },
+  {
+    "item_id": "a232f0ae3120",
+    "image": "../images_raw/a232f0ae3120.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "坐着的穿着厚重衣物的人物和躺着的穿着厚重衣物的人物",
+      "relations": "两个人物彼此靠近并面向同一方向",
+      "scene_or_event": "阳光下的户外休息场景"
+    }
+  },
+  {
+    "item_id": "87616f06a1b7",
+    "image": "../images_raw/87616f06a1b7.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "黑白条纹的圆柱体、拱形窗户、章鱼触须",
+      "relations": "章鱼触须缠绕在圆柱体之间，形成交错关系",
+      "scene_or_event": "室内水池中展示的静态装置"
+    }
+  },
+  {
+    "item_id": "5c8a823a1628",
+    "image": "../images_raw/5c8a823a1628.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "绿色和黄色的色块与黑色线条",
+      "relations": "黑色线条在色块之间穿插并形成对比",
+      "scene_or_event": "多色涂抹的抽象画面"
+    }
+  },
+  {
+    "item_id": "8878fac415a0",
+    "image": "../images_raw/8878fac415a0.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "密集的树木与稀疏的树枝",
+      "relations": "树木在地面上排列成行，彼此间隔均匀",
+      "scene_or_event": "静态展示的森林景观"
+    }
+  },
+  {
+    "item_id": "c5c336fbf19a",
+    "image": "../images_raw/c5c336fbf19a.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "穿着正式服装的两个人物，红色背景和海岸线",
+      "relations": "两个人物紧密相拥，形成一个整体",
+      "scene_or_event": "海岸边的两个人物静止站立"
+    }
+  },
+  {
+    "item_id": "280f3c27a098",
+    "image": "../images_raw/280f3c27a098.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "鱼骨架",
+      "relations": "鱼骨架悬浮在红色背景上",
+      "scene_or_event": "静态展示的鱼骨架形象"
+    }
+  },
+  {
+    "item_id": "2fbe3007a8eb",
+    "image": "../images_raw/2fbe3007a8eb.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "多彩的流动线条与圆形结构",
+      "relations": "圆形结构分布在流动线条之间，形成对比",
+      "scene_or_event": "色彩斑斓的抽象画面"
+    }
+  },
+  {
+    "item_id": "4608fd34f358",
+    "image": "../images_raw/4608fd34f358.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "两位穿着传统服饰的女性",
+      "relations": "两位女性彼此靠近并手握花束",
+      "scene_or_event": "静态展示的双人肖像"
+    }
+  },
+  {
+    "item_id": "c97b54472654",
+    "image": "../images_raw/c97b54472654.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "裸露上身的人物、插有花朵的花瓶、剪刀和柠檬片",
+      "relations": "人物的手臂环绕在花朵周围，与花瓶形成一体感",
+      "scene_or_event": "静态展示的人物与花瓶组合"
+    }
+  },
+  {
+    "item_id": "a4fcd8aa1030",
+    "image": "../images_raw/a4fcd8aa1030.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "两朵红色百合花",
+      "relations": "两朵百合花相互交叠并排列在一起",
+      "scene_or_event": "静态展示的百合花特写"
+    }
+  },
+  {
+    "item_id": "73ffe2c58df2",
+    "image": "../images_raw/73ffe2c58df2.jpg",
+    "stage": 2,
+    "scene_cues": {
+      "entities": "多彩的圆形星体与旋转的轨迹线条",
+      "relations": "星体在轨迹线条上排列，形成有序的分布",
+      "scene_or_event": "宇宙星空中星体分布的状态"
+    }
+  }
+]

@@ -18,6 +18,7 @@ result gpt_stage*/
 label_check_outputs/
 outputs/
 tmp/
+**/reports/recomputed/
 **/result */
 **/results/
 **/manifests/

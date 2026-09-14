@@ -1,0 +1,25 @@
+{
+  "n": 760,
+  "trials": 3000,
+  "seed": 20260918,
+  "negative_boost_points": 4.79,
+  "target_positive_percent": 56.0,
+  "target_negative_percent": 44.0,
+  "target_distribution": {
+    "宁静": 18.525415364369138,
+    "快乐": 14.859022865602894,
+    "惊奇": 14.84059878269452,
+    "敬畏": 7.765750945879256,
+    "恐惧": 16.495791889824023,
+    "厌恶": 11.692935475643969,
+    "悲伤": 11.053302728895689,
+    "愤怒": 4.757969905636318
+  },
+  "eligible_pool_size": 1458,
+  "best_trial": 2202,
+  "score": 0.36423775455917573,
+  "loss_against_full_same_code": 0.18781168828174494,
+  "loss_against_paper_table3": 0.18492661932996743,
+  "label_distribution_loss": 3.7278732896374707,
+  "note": "Candidate subset selected from items with complete gold labels and available raw images. Metrics are computed on available predictions within the selected subset; missing model outputs are naturally excluded from the corresponding denominator."
+}

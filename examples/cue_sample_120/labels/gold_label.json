@@ -1,0 +1,1743 @@
+[
+  {
+    "item_id": "045cf7836f97",
+    "stage1": [
+      "快乐"
+    ],
+    "stage2": [
+      "快乐"
+    ],
+    "stage3": [
+      "宁静",
+      "快乐"
+    ],
+    "sample_stratum_label": "宁静"
+  },
+  {
+    "item_id": "24fdad87bf82",
+    "stage1": [
+      "悲伤",
+      "宁静"
+    ],
+    "stage2": [
+      "悲伤",
+      "惊奇"
+    ],
+    "stage3": [
+      "悲伤"
+    ],
+    "sample_stratum_label": "惊奇"
+  },
+  {
+    "item_id": "27f70741ed56",
+    "stage1": [
+      "悲伤"
+    ],
+    "stage2": [
+      "悲伤",
+      "宁静"
+    ],
+    "stage3": [
+      "宁静",
+      "快乐"
+    ],
+    "sample_stratum_label": "宁静"
+  },
+  {
+    "item_id": "87cb06976dd9",
+    "stage1": [
+      "悲伤",
+      "恐惧"
+    ],
+    "stage2": [
+      "宁静",
+      "惊奇"
+    ],
+    "stage3": [
+      "快乐",
+      "敬畏"
+    ],
+    "sample_stratum_label": "惊奇"
+  },
+  {
+    "item_id": "b7fbd2171438",
+    "stage1": [
+      "厌恶",
+      "惊奇"
+    ],
+    "stage2": [
+      "惊奇"
+    ],
+    "stage3": [
+      "宁静",
+      "惊奇"
+    ],
+    "sample_stratum_label": "厌恶"
+  },
+  {
+    "item_id": "6e0c819329e8",
+    "stage1": [
+      "恐惧"
+    ],
+    "stage2": [
+      "恐惧",
+      "惊奇"
+    ],
+    "stage3": [
+      "快乐"
+    ],
+    "sample_stratum_label": "快乐"
+  },
+  {
+    "item_id": "b07e178970f7",
+    "stage1": [
+      "宁静",
+      "快乐"
+    ],
+    "stage2": [
+      "快乐",
+      "惊奇"
+    ],
+    "stage3": [
+      "敬畏"
+    ],
+    "sample_stratum_label": "宁静"
+  },
+  {
+    "item_id": "e5ed6f14235a",
+    "stage1": [
+      "厌恶"
+    ],
+    "stage2": [
+      "宁静",
+      "愤怒"
+    ],
+    "stage3": [
+      "宁静"
+    ],
+    "sample_stratum_label": "愤怒"
+  },
+  {
+    "item_id": "6195aa32b2eb",
+    "stage1": [
+      "悲伤",
+      "宁静"
+    ],
+    "stage2": [
+      "惊奇"
+    ],
+    "stage3": [
+      "宁静",
+      "惊奇"
+    ],
+    "sample_stratum_label": "惊奇"
+  },
+  {
+    "item_id": "47a1671704bf",
+    "stage1": [
+      "快乐",
+      "恐惧"
+    ],
+    "stage2": [
+      "宁静",
+      "快乐"
+    ],
+    "stage3": [
+      "敬畏"
+    ],
+    "sample_stratum_label": "宁静"
+  },
+  {
+    "item_id": "242613ff3ffe",
+    "stage1": [
+      "厌恶",
+      "快乐"
+    ],
+    "stage2": [
+      "悲伤",
+      "厌恶"
+    ],
+    "stage3": [
+      "悲伤"
+    ],
+    "sample_stratum_label": "悲伤"
+  },
+  {
+    "item_id": "9b6d4abbdc6d",
+    "stage1": [
+      "宁静",
+      "悲伤"
+    ],
+    "stage2": [
+      "悲伤"
+    ],
+    "stage3": [
+      "快乐"
+    ],
+    "sample_stratum_label": "悲伤"
+  },
+  {
+    "item_id": "515a5b3133a9",
+    "stage1": [
+      "恐惧",
+      "厌恶"
+    ],
+    "stage2": [
+      "恐惧"
+    ],
+    "stage3": [
+      "恐惧"
+    ],
+    "sample_stratum_label": "恐惧"
+  },
+  {
+    "item_id": "5ca8137ec1fb",
+    "stage1": [
+      "宁静"
+    ],
+    "stage2": [
+      "宁静",
+      "惊奇"
+    ],
+    "stage3": [
+      "宁静"
+    ],
+    "sample_stratum_label": "惊奇"
+  },
+  {
+    "item_id": "4922f64f7b32",
+    "stage1": [
+      "恐惧"
+    ],
+    "stage2": [
+      "宁静",
+      "快乐"
+    ],
+    "stage3": [
+      "快乐",
+      "敬畏"
+    ],
+    "sample_stratum_label": "敬畏"
+  },
+  {
+    "item_id": "efe5131a57bc",
+    "stage1": [
+      "恐惧",
+      "愤怒"
+    ],
+    "stage2": [
+      "恐惧",
+      "惊奇"
+    ],
+    "stage3": [
+      "惊奇"
+    ],
+    "sample_stratum_label": "愤怒"
+  },
+  {
+    "item_id": "fc6792dea129",
+    "stage1": [
+      "恐惧",
+      "厌恶"
+    ],
+    "stage2": [
+      "恐惧",
+      "快乐"
+    ],
+    "stage3": [
+      "快乐"
+    ],
+    "sample_stratum_label": "厌恶"
+  },
+  {
+    "item_id": "1278288f5df4",
+    "stage1": [
+      "厌恶",
+      "愤怒"
+    ],
+    "stage2": [
+      "恐惧",
+      "厌恶"
+    ],
+    "stage3": [
+      "宁静",
+      "惊奇"
+    ],
+    "sample_stratum_label": "愤怒"
+  },
+  {
+    "item_id": "b46fdcbc728d",
+    "stage1": [
+      "恐惧",
+      "厌恶"
+    ],
+    "stage2": [
+      "宁静",
+      "快乐"
+    ],
+    "stage3": [
+      "宁静",
+      "快乐"
+    ],
+    "sample_stratum_label": "厌恶"
+  },
+  {
+    "item_id": "7abd4bc6b427",
+    "stage1": [
+      "厌恶"
+    ],
+    "stage2": [
+      "宁静",
+      "惊奇"
+    ],
+    "stage3": [
+      "快乐",
+      "惊奇"
+    ],
+    "sample_stratum_label": "快乐"
+  },
+  {
+    "item_id": "95a4e412b22a",
+    "stage1": [
+      "快乐"
+    ],
+    "stage2": [
+      "快乐"
+    ],
+    "stage3": [
+      "宁静",
+      "快乐"
+    ],
+    "sample_stratum_label": "快乐"
+  },
+  {
+    "item_id": "5ddffd24eba9",
+    "stage1": [
+      "愤怒",
+      "快乐"
+    ],
+    "stage2": [
+      "恐惧",
+      "惊奇"
+    ],
+    "stage3": [
+      "恐惧"
+    ],
+    "sample_stratum_label": "愤怒"
+  },
+  {
+    "item_id": "3610cd44fa81",
+    "stage1": [
+      "悲伤",
+      "恐惧"
+    ],
+    "stage2": [
+      "悲伤"
+    ],
+    "stage3": [
+      "悲伤"
+    ],
+    "sample_stratum_label": "悲伤"
+  },
+  {
+    "item_id": "eb62df0eaf42",
+    "stage1": [
+      "惊奇"
+    ],
+    "stage2": [
+      "敬畏"
+    ],
+    "stage3": [
+      "恐惧"
+    ],
+    "sample_stratum_label": "惊奇"
+  },
+  {
+    "item_id": "f86f7f65b5a8",
+    "stage1": [
+      "厌恶"
+    ],
+    "stage2": [
+      "快乐"
+    ],
+    "stage3": [
+      "快乐"
+    ],
+    "sample_stratum_label": "厌恶"
+  },
+  {
+    "item_id": "4affcc120492",
+    "stage1": [
+      "恐惧"
+    ],
+    "stage2": [
+      "悲伤",
+      "敬畏"
+    ],
+    "stage3": [
+      "宁静",
+      "敬畏"
+    ],
+    "sample_stratum_label": "宁静"
+  },
+  {
+    "item_id": "9ee9010c96e9",
+    "stage1": [
+      "恐惧"
+    ],
+    "stage2": [
+      "宁静",
+      "快乐"
+    ],
+    "stage3": [
+      "宁静",
+      "敬畏"
+    ],
+    "sample_stratum_label": "敬畏"
+  },
+  {
+    "item_id": "2a288cf75bb4",
+    "stage1": [
+      "悲伤",
+      "宁静"
+    ],
+    "stage2": [
+      "悲伤",
+      "惊奇"
+    ],
+    "stage3": [
+      "快乐",
+      "惊奇"
+    ],
+    "sample_stratum_label": "悲伤"
+  },
+  {
+    "item_id": "faa3326226b8",
+    "stage1": [
+      "悲伤",
+      "恐惧"
+    ],
+    "stage2": [
+      "恐惧"
+    ],
+    "stage3": [
+      "恐惧"
+    ],
+    "sample_stratum_label": "恐惧"
+  },
+  {
+    "item_id": "19b57d09297c",
+    "stage1": [
+      "恐惧",
+      "惊奇"
+    ],
+    "stage2": [
+      "恐惧",
+      "惊奇"
+    ],
+    "stage3": [
+      "快乐",
+      "惊奇"
+    ],
+    "sample_stratum_label": "快乐"
+  },
+  {
+    "item_id": "0eab1a07395f",
+    "stage1": [
+      "恐惧",
+      "厌恶"
+    ],
+    "stage2": [
+      "惊奇"
+    ],
+    "stage3": [
+      "惊奇",
+      "敬畏"
+    ],
+    "sample_stratum_label": "厌恶"
+  },
+  {
+    "item_id": "3d308fb78d69",
+    "stage1": [
+      "厌恶",
+      "宁静"
+    ],
+    "stage2": [
+      "宁静"
+    ],
+    "stage3": [
+      "悲伤",
+      "愤怒"
+    ],
+    "sample_stratum_label": "愤怒"
+  },
+  {
+    "item_id": "a7d5207f9ea6",
+    "stage1": [
+      "厌恶",
+      "愤怒"
+    ],
+    "stage2": [
+      "愤怒"
+    ],
+    "stage3": [
+      "愤怒"
+    ],
+    "sample_stratum_label": "愤怒"
+  },
+  {
+    "item_id": "c53eb2a3583f",
+    "stage1": [
+      "宁静"
+    ],
+    "stage2": [
+      "宁静"
+    ],
+    "stage3": [
+      "愤怒"
+    ],
+    "sample_stratum_label": "愤怒"
+  },
+  {
+    "item_id": "abd845aba974",
+    "stage1": [
+      "宁静",
+      "快乐"
+    ],
+    "stage2": [
+      "宁静"
+    ],
+    "stage3": [
+      "惊奇",
+      "敬畏"
+    ],
+    "sample_stratum_label": "敬畏"
+  },
+  {
+    "item_id": "87a73bb5c9d3",
+    "stage1": [
+      "宁静",
+      "快乐"
+    ],
+    "stage2": [
+      "宁静"
+    ],
+    "stage3": [
+      "敬畏"
+    ],
+    "sample_stratum_label": "敬畏"
+  },
+  {
+    "item_id": "f42bae375c68",
+    "stage1": [
+      "悲伤",
+      "恐惧"
+    ],
+    "stage2": [
+      "宁静"
+    ],
+    "stage3": [
+      "敬畏"
+    ],
+    "sample_stratum_label": "恐惧"
+  },
+  {
+    "item_id": "55552ff4cf01",
+    "stage1": [
+      "悲伤",
+      "恐惧"
+    ],
+    "stage2": [
+      "厌恶",
+      "惊奇"
+    ],
+    "stage3": [
+      "厌恶",
+      "宁静"
+    ],
+    "sample_stratum_label": "恐惧"
+  },
+  {
+    "item_id": "8e74b6358482",
+    "stage1": [
+      "恐惧"
+    ],
+    "stage2": [
+      "恐惧"
+    ],
+    "stage3": [
+      "惊奇"
+    ],
+    "sample_stratum_label": "恐惧"
+  },
+  {
+    "item_id": "19973d5d3049",
+    "stage1": [
+      "宁静",
+      "快乐"
+    ],
+    "stage2": [
+      "宁静"
+    ],
+    "stage3": [
+      "宁静",
+      "快乐"
+    ],
+    "sample_stratum_label": "快乐"
+  },
+  {
+    "item_id": "ea48b59e8c1c",
+    "stage1": [
+      "宁静",
+      "敬畏"
+    ],
+    "stage2": [
+      "敬畏"
+    ],
+    "stage3": [
+      "敬畏"
+    ],
+    "sample_stratum_label": "敬畏"
+  },
+  {
+    "item_id": "a2cddf0e6eeb",
+    "stage1": [
+      "宁静"
+    ],
+    "stage2": [
+      "宁静",
+      "惊奇"
+    ],
+    "stage3": [
+      "悲伤",
+      "惊奇"
+    ],
+    "sample_stratum_label": "悲伤"
+  },
+  {
+    "item_id": "3dc81be3aee9",
+    "stage1": [
+      "恐惧",
+      "愤怒"
+    ],
+    "stage2": [
+      "恐惧",
+      "厌恶"
+    ],
+    "stage3": [
+      "恐惧"
+    ],
+    "sample_stratum_label": "愤怒"
+  },
+  {
+    "item_id": "d54cb4df8208",
+    "stage1": [
+      "悲伤"
+    ],
+    "stage2": [
+      "宁静"
+    ],
+    "stage3": [
+      "宁静",
+      "快乐"
+    ],
+    "sample_stratum_label": "悲伤"
+  },
+  {
+    "item_id": "748bb34ebcd9",
+    "stage1": [
+      "悲伤",
+      "宁静"
+    ],
+    "stage2": [
+      "宁静"
+    ],
+    "stage3": [
+      "悲伤",
+      "宁静"
+    ],
+    "sample_stratum_label": "悲伤"
+  },
+  {
+    "item_id": "b50f282ba6de",
+    "stage1": [
+      "愤怒"
+    ],
+    "stage2": [
+      "惊奇"
+    ],
+    "stage3": [
+      "快乐"
+    ],
+    "sample_stratum_label": "愤怒"
+  },
+  {
+    "item_id": "221db885cfc0",
+    "stage1": [
+      "快乐",
+      "愤怒"
+    ],
+    "stage2": [
+      "愤怒"
+    ],
+    "stage3": [
+      "惊奇"
+    ],
+    "sample_stratum_label": "愤怒"
+  },
+  {
+    "item_id": "46a9f9cc9b63",
+    "stage1": [
+      "恐惧"
+    ],
+    "stage2": [
+      "敬畏"
+    ],
+    "stage3": [
+      "敬畏"
+    ],
+    "sample_stratum_label": "敬畏"
+  },
+  {
+    "item_id": "788ab7182de5",
+    "stage1": [
+      "恐惧",
+      "悲伤"
+    ],
+    "stage2": [
+      "悲伤"
+    ],
+    "stage3": [
+      "敬畏"
+    ],
+    "sample_stratum_label": "悲伤"
+  },
+  {
+    "item_id": "ffd8d1668aa7",
+    "stage1": [
+      "厌恶"
+    ],
+    "stage2": [
+      "宁静",
+      "惊奇"
+    ],
+    "stage3": [
+      "快乐",
+      "敬畏"
+    ],
+    "sample_stratum_label": "快乐"
+  },
+  {
+    "item_id": "523e1fe9c615",
+    "stage1": [
+      "恐惧",
+      "宁静"
+    ],
+    "stage2": [
+      "恐惧"
+    ],
+    "stage3": [
+      "悲伤",
+      "敬畏"
+    ],
+    "sample_stratum_label": "宁静"
+  },
+  {
+    "item_id": "a8be5b1177b3",
+    "stage1": [
+      "恐惧"
+    ],
+    "stage2": [
+      "恐惧"
+    ],
+    "stage3": [
+      "恐惧",
+      "惊奇"
+    ],
+    "sample_stratum_label": "惊奇"
+  },
+  {
+    "item_id": "ae3fa8bc7708",
+    "stage1": [
+      "厌恶"
+    ],
+    "stage2": [
+      "宁静",
+      "惊奇"
+    ],
+    "stage3": [
+      "宁静",
+      "惊奇"
+    ],
+    "sample_stratum_label": "厌恶"
+  },
+  {
+    "item_id": "2a946166afb9",
+    "stage1": [
+      "宁静"
+    ],
+    "stage2": [
+      "宁静",
+      "快乐"
+    ],
+    "stage3": [
+      "敬畏"
+    ],
+    "sample_stratum_label": "快乐"
+  },
+  {
+    "item_id": "63f2d0524afc",
+    "stage1": [
+      "恐惧",
+      "厌恶"
+    ],
+    "stage2": [
+      "厌恶"
+    ],
+    "stage3": [
+      "恐惧"
+    ],
+    "sample_stratum_label": "恐惧"
+  },
+  {
+    "item_id": "a23cc0280622",
+    "stage1": [
+      "快乐"
+    ],
+    "stage2": [
+      "快乐",
+      "惊奇"
+    ],
+    "stage3": [
+      "惊奇",
+      "敬畏"
+    ],
+    "sample_stratum_label": "惊奇"
+  },
+  {
+    "item_id": "438a768615a3",
+    "stage1": [
+      "恐惧",
+      "悲伤"
+    ],
+    "stage2": [
+      "恐惧"
+    ],
+    "stage3": [
+      "快乐",
+      "惊奇"
+    ],
+    "sample_stratum_label": "恐惧"
+  },
+  {
+    "item_id": "91cdf479eba2",
+    "stage1": [
+      "宁静",
+      "快乐"
+    ],
+    "stage2": [
+      "快乐"
+    ],
+    "stage3": [
+      "宁静"
+    ],
+    "sample_stratum_label": "宁静"
+  },
+  {
+    "item_id": "976844de6774",
+    "stage1": [
+      "恐惧",
+      "悲伤"
+    ],
+    "stage2": [
+      "宁静",
+      "快乐"
+    ],
+    "stage3": [
+      "快乐"
+    ],
+    "sample_stratum_label": "悲伤"
+  },
+  {
+    "item_id": "c3ee5fe292f6",
+    "stage1": [
+      "快乐"
+    ],
+    "stage2": [
+      "宁静"
+    ],
+    "stage3": [
+      "恐惧"
+    ],
+    "sample_stratum_label": "恐惧"
+  },
+  {
+    "item_id": "183674d32892",
+    "stage1": [
+      "悲伤",
+      "快乐"
+    ],
+    "stage2": [
+      "快乐"
+    ],
+    "stage3": [
+      "快乐"
+    ],
+    "sample_stratum_label": "悲伤"
+  },
+  {
+    "item_id": "e20f640cb640",
+    "stage1": [
+      "宁静"
+    ],
+    "stage2": [
+      "宁静",
+      "惊奇"
+    ],
+    "stage3": [
+      "宁静",
+      "惊奇"
+    ],
+    "sample_stratum_label": "惊奇"
+  },
+  {
+    "item_id": "7c5ed693e0b8",
+    "stage1": [
+      "恐惧",
+      "厌恶"
+    ],
+    "stage2": [
+      "恐惧"
+    ],
+    "stage3": [
+      "惊奇"
+    ],
+    "sample_stratum_label": "惊奇"
+  },
+  {
+    "item_id": "da0956903985",
+    "stage1": [
+      "恐惧",
+      "厌恶"
+    ],
+    "stage2": [
+      "恐惧"
+    ],
+    "stage3": [
+      "悲伤",
+      "恐惧"
+    ],
+    "sample_stratum_label": "厌恶"
+  },
+  {
+    "item_id": "ecd948f21ee2",
+    "stage1": [
+      "快乐"
+    ],
+    "stage2": [
+      "宁静",
+      "快乐"
+    ],
+    "stage3": [
+      "快乐"
+    ],
+    "sample_stratum_label": "快乐"
+  },
+  {
+    "item_id": "bd8854389702",
+    "stage1": [
+      "悲伤",
+      "恐惧"
+    ],
+    "stage2": [
+      "悲伤",
+      "宁静"
+    ],
+    "stage3": [
+      "厌恶"
+    ],
+    "sample_stratum_label": "恐惧"
+  },
+  {
+    "item_id": "7a495437dea8",
+    "stage1": [
+      "愤怒"
+    ],
+    "stage2": [
+      "惊奇",
+      "愤怒"
+    ],
+    "stage3": [
+      "惊奇"
+    ],
+    "sample_stratum_label": "愤怒"
+  },
+  {
+    "item_id": "42719eb12cd8",
+    "stage1": [
+      "宁静"
+    ],
+    "stage2": [
+      "惊奇"
+    ],
+    "stage3": [
+      "快乐",
+      "惊奇"
+    ],
+    "sample_stratum_label": "快乐"
+  },
+  {
+    "item_id": "a48245b8db6d",
+    "stage1": [
+      "恐惧",
+      "厌恶"
+    ],
+    "stage2": [
+      "恐惧",
+      "惊奇"
+    ],
+    "stage3": [
+      "恐惧"
+    ],
+    "sample_stratum_label": "厌恶"
+  },
+  {
+    "item_id": "08915938087b",
+    "stage1": [
+      "宁静",
+      "快乐"
+    ],
+    "stage2": [
+      "快乐",
+      "恐惧"
+    ],
+    "stage3": [
+      "快乐"
+    ],
+    "sample_stratum_label": "恐惧"
+  },
+  {
+    "item_id": "70b2a8615a4b",
+    "stage1": [
+      "宁静",
+      "快乐"
+    ],
+    "stage2": [
+      "快乐"
+    ],
+    "stage3": [
+      "快乐"
+    ],
+    "sample_stratum_label": "快乐"
+  },
+  {
+    "item_id": "c4013276a121",
+    "stage1": [
+      "悲伤",
+      "厌恶"
+    ],
+    "stage2": [
+      "悲伤"
+    ],
+    "stage3": [
+      "悲伤",
+      "敬畏"
+    ],
+    "sample_stratum_label": "厌恶"
+  },
+  {
+    "item_id": "e2a7d995adb0",
+    "stage1": [
+      "恐惧",
+      "愤怒"
+    ],
+    "stage2": [
+      "恐惧",
+      "愤怒"
+    ],
+    "stage3": [
+      "敬畏"
+    ],
+    "sample_stratum_label": "愤怒"
+  },
+  {
+    "item_id": "5015332e0585",
+    "stage1": [
+      "厌恶",
+      "惊奇"
+    ],
+    "stage2": [
+      "惊奇"
+    ],
+    "stage3": [
+      "敬畏"
+    ],
+    "sample_stratum_label": "惊奇"
+  },
+  {
+    "item_id": "e07a026d6ab4",
+    "stage1": [
+      "恐惧",
+      "厌恶"
+    ],
+    "stage2": [
+      "悲伤",
+      "恐惧"
+    ],
+    "stage3": [
+      "悲伤",
+      "恐惧"
+    ],
+    "sample_stratum_label": "悲伤"
+  },
+  {
+    "item_id": "377ffc885c72",
+    "stage1": [
+      "恐惧",
+      "厌恶"
+    ],
+    "stage2": [
+      "惊奇",
+      "敬畏"
+    ],
+    "stage3": [
+      "敬畏"
+    ],
+    "sample_stratum_label": "厌恶"
+  },
+  {
+    "item_id": "b17675cc0db9",
+    "stage1": [
+      "快乐",
+      "惊奇"
+    ],
+    "stage2": [
+      "快乐"
+    ],
+    "stage3": [
+      "快乐",
+      "惊奇"
+    ],
+    "sample_stratum_label": "快乐"
+  },
+  {
+    "item_id": "0c006cf8053d",
+    "stage1": [
+      "宁静",
+      "惊奇"
+    ],
+    "stage2": [
+      "快乐",
+      "敬畏"
+    ],
+    "stage3": [
+      "快乐",
+      "敬畏"
+    ],
+    "sample_stratum_label": "惊奇"
+  },
+  {
+    "item_id": "40fe75077c7b",
+    "stage1": [
+      "厌恶"
+    ],
+    "stage2": [
+      "厌恶",
+      "惊奇"
+    ],
+    "stage3": [
+      "宁静"
+    ],
+    "sample_stratum_label": "惊奇"
+  },
+  {
+    "item_id": "35eb9ca69596",
+    "stage1": [
+      "宁静"
+    ],
+    "stage2": [
+      "惊奇",
+      "敬畏"
+    ],
+    "stage3": [
+      "敬畏"
+    ],
+    "sample_stratum_label": "敬畏"
+  },
+  {
+    "item_id": "01d0c51f3d96",
+    "stage1": [
+      "厌恶"
+    ],
+    "stage2": [
+      "悲伤",
+      "宁静"
+    ],
+    "stage3": [
+      "宁静"
+    ],
+    "sample_stratum_label": "厌恶"
+  },
+  {
+    "item_id": "817c85485534",
+    "stage1": [
+      "快乐"
+    ],
+    "stage2": [
+      "敬畏"
+    ],
+    "stage3": [
+      "敬畏"
+    ],
+    "sample_stratum_label": "快乐"
+  },
+  {
+    "item_id": "23bc9e46b629",
+    "stage1": [
+      "悲伤",
+      "宁静"
+    ],
+    "stage2": [
+      "悲伤"
+    ],
+    "stage3": [
+      "悲伤",
+      "宁静"
+    ],
+    "sample_stratum_label": "宁静"
+  },
+  {
+    "item_id": "6b7d864c888e",
+    "stage1": [
+      "恐惧"
+    ],
+    "stage2": [
+      "恐惧",
+      "惊奇"
+    ],
+    "stage3": [
+      "敬畏"
+    ],
+    "sample_stratum_label": "恐惧"
+  },
+  {
+    "item_id": "2bed6c4e4715",
+    "stage1": [
+      "恐惧",
+      "愤怒"
+    ],
+    "stage2": [
+      "恐惧",
+      "厌恶"
+    ],
+    "stage3": [
+      "惊奇",
+      "敬畏"
+    ],
+    "sample_stratum_label": "厌恶"
+  },
+  {
+    "item_id": "9e8f13c0ad90",
+    "stage1": [
+      "快乐"
+    ],
+    "stage2": [
+      "宁静"
+    ],
+    "stage3": [
+      "悲伤"
+    ],
+    "sample_stratum_label": "悲伤"
+  },
+  {
+    "item_id": "b22b74c45116",
+    "stage1": [
+      "恐惧"
+    ],
+    "stage2": [
+      "惊奇"
+    ],
+    "stage3": [
+      "快乐",
+      "惊奇"
+    ],
+    "sample_stratum_label": "惊奇"
+  },
+  {
+    "item_id": "e0001cbfcf57",
+    "stage1": [
+      "悲伤"
+    ],
+    "stage2": [
+      "宁静"
+    ],
+    "stage3": [
+      "宁静"
+    ],
+    "sample_stratum_label": "宁静"
+  },
+  {
+    "item_id": "7aaac1e1c8c4",
+    "stage1": [
+      "悲伤"
+    ],
+    "stage2": [
+      "悲伤"
+    ],
+    "stage3": [
+      "敬畏"
+    ],
+    "sample_stratum_label": "敬畏"
+  },
+  {
+    "item_id": "39873a36bcf9",
+    "stage1": [
+      "宁静"
+    ],
+    "stage2": [
+      "敬畏"
+    ],
+    "stage3": [
+      "快乐",
+      "敬畏"
+    ],
+    "sample_stratum_label": "敬畏"
+  },
+  {
+    "item_id": "c10ed07770f8",
+    "stage1": [
+      "宁静",
+      "恐惧"
+    ],
+    "stage2": [
+      "宁静",
+      "敬畏"
+    ],
+    "stage3": [
+      "快乐",
+      "敬畏"
+    ],
+    "sample_stratum_label": "恐惧"
+  },
+  {
+    "item_id": "b58dd966280f",
+    "stage1": [
+      "悲伤",
+      "宁静"
+    ],
+    "stage2": [
+      "宁静"
+    ],
+    "stage3": [
+      "快乐",
+      "惊奇"
+    ],
+    "sample_stratum_label": "悲伤"
+  },
+  {
+    "item_id": "88341da6f333",
+    "stage1": [
+      "厌恶",
+      "敬畏"
+    ],
+    "stage2": [
+      "敬畏"
+    ],
+    "stage3": [
+      "敬畏"
+    ],
+    "sample_stratum_label": "厌恶"
+  },
+  {
+    "item_id": "f3ed98efeb12",
+    "stage1": [
+      "悲伤"
+    ],
+    "stage2": [
+      "宁静"
+    ],
+    "stage3": [
+      "恐惧",
+      "悲伤"
+    ],
+    "sample_stratum_label": "悲伤"
+  },
+  {
+    "item_id": "a134c9d00012",
+    "stage1": [
+      "恐惧",
+      "宁静"
+    ],
+    "stage2": [
+      "恐惧"
+    ],
+    "stage3": [
+      "恐惧"
+    ],
+    "sample_stratum_label": "宁静"
+  },
+  {
+    "item_id": "479fd5f57272",
+    "stage1": [
+      "恐惧",
+      "厌恶"
+    ],
+    "stage2": [
+      "厌恶"
+    ],
+    "stage3": [
+      "厌恶",
+      "快乐"
+    ],
+    "sample_stratum_label": "恐惧"
+  },
+  {
+    "item_id": "c82ef27f1f7e",
+    "stage1": [
+      "宁静"
+    ],
+    "stage2": [
+      "敬畏"
+    ],
+    "stage3": [
+      "快乐",
+      "敬畏"
+    ],
+    "sample_stratum_label": "宁静"
+  },
+  {
+    "item_id": "9d7a11e43bc7",
+    "stage1": [
+      "悲伤",
+      "恐惧"
+    ],
+    "stage2": [
+      "悲伤"
+    ],
+    "stage3": [
+      "宁静",
+      "敬畏"
+    ],
+    "sample_stratum_label": "敬畏"
+  },
+  {
+    "item_id": "e7fa6fec758e",
+    "stage1": [
+      "悲伤"
+    ],
+    "stage2": [
+      "敬畏"
+    ],
+    "stage3": [
+      "敬畏"
+    ],
+    "sample_stratum_label": "敬畏"
+  },
+  {
+    "item_id": "a0b6a4908570",
+    "stage1": [
+      "悲伤",
+      "恐惧"
+    ],
+    "stage2": [
+      "悲伤",
+      "宁静"
+    ],
+    "stage3": [
+      "悲伤",
+      "愤怒"
+    ],
+    "sample_stratum_label": "愤怒"
+  },
+  {
+    "item_id": "279901b23290",
+    "stage1": [
+      "恐惧",
+      "愤怒"
+    ],
+    "stage2": [
+      "恐惧",
+      "厌恶"
+    ],
+    "stage3": [
+      "恐惧",
+      "惊奇"
+    ],
+    "sample_stratum_label": "愤怒"
+  },
+  {
+    "item_id": "7efde0416584",
+    "stage1": [
+      "悲伤",
+      "宁静"
+    ],
+    "stage2": [
+      "宁静",
+      "惊奇"
+    ],
+    "stage3": [
+      "宁静"
+    ],
+    "sample_stratum_label": "惊奇"
+  },
+  {
+    "item_id": "9c85df9ec3f4",
+    "stage1": [
+      "宁静"
+    ],
+    "stage2": [
+      "宁静"
+    ],
+    "stage3": [
+      "宁静",
+      "快乐"
+    ],
+    "sample_stratum_label": "宁静"
+  },
+  {
+    "item_id": "a211e992d223",
+    "stage1": [
+      "恐惧",
+      "悲伤"
+    ],
+    "stage2": [
+      "宁静"
+    ],
+    "stage3": [
+      "敬畏"
+    ],
+    "sample_stratum_label": "宁静"
+  },
+  {
+    "item_id": "f842d398a03b",
+    "stage1": [
+      "快乐"
+    ],
+    "stage2": [
+      "快乐",
+      "惊奇"
+    ],
+    "stage3": [
+      "惊奇",
+      "敬畏"
+    ],
+    "sample_stratum_label": "敬畏"
+  },
+  {
+    "item_id": "86f653917ec2",
+    "stage1": [
+      "厌恶",
+      "宁静"
+    ],
+    "stage2": [
+      "快乐"
+    ],
+    "stage3": [
+      "快乐"
+    ],
+    "sample_stratum_label": "宁静"
+  },
+  {
+    "item_id": "6d8969f1935f",
+    "stage1": [
+      "恐惧",
+      "愤怒"
+    ],
+    "stage2": [
+      "恐惧"
+    ],
+    "stage3": [
+      "恐惧",
+      "愤怒"
+    ],
+    "sample_stratum_label": "愤怒"
+  },
+  {
+    "item_id": "5f11912239eb",
+    "stage1": [
+      "宁静"
+    ],
+    "stage2": [
+      "快乐"
+    ],
+    "stage3": [
+      "敬畏"
+    ],
+    "sample_stratum_label": "敬畏"
+  },
+  {
+    "item_id": "c19529de59b1",
+    "stage1": [
+      "快乐",
+      "恐惧"
+    ],
+    "stage2": [
+      "快乐"
+    ],
+    "stage3": [
+      "敬畏"
+    ],
+    "sample_stratum_label": "快乐"
+  },
+  {
+    "item_id": "a232f0ae3120",
+    "stage1": [
+      "宁静",
+      "悲伤"
+    ],
+    "stage2": [
+      "快乐"
+    ],
+    "stage3": [
+      "快乐"
+    ],
+    "sample_stratum_label": "快乐"
+  },
+  {
+    "item_id": "87616f06a1b7",
+    "stage1": [
+      "宁静"
+    ],
+    "stage2": [
+      "恐惧",
+      "惊奇"
+    ],
+    "stage3": [
+      "惊奇"
+    ],
+    "sample_stratum_label": "恐惧"
+  },
+  {
+    "item_id": "5c8a823a1628",
+    "stage1": [
+      "厌恶",
+      "宁静"
+    ],
+    "stage2": [
+      "宁静"
+    ],
+    "stage3": [
+      "宁静",
+      "敬畏"
+    ],
+    "sample_stratum_label": "敬畏"
+  },
+  {
+    "item_id": "8878fac415a0",
+    "stage1": [
+      "恐惧",
+      "悲伤"
+    ],
+    "stage2": [
+      "恐惧"
+    ],
+    "stage3": [
+      "宁静",
+      "悲伤"
+    ],
+    "sample_stratum_label": "悲伤"
+  },
+  {
+    "item_id": "c5c336fbf19a",
+    "stage1": [
+      "恐惧",
+      "愤怒"
+    ],
+    "stage2": [
+      "恐惧",
+      "厌恶"
+    ],
+    "stage3": [
+      "恐惧",
+      "惊奇"
+    ],
+    "sample_stratum_label": "厌恶"
+  },
+  {
+    "item_id": "280f3c27a098",
+    "stage1": [
+      "恐惧"
+    ],
+    "stage2": [
+      "恐惧",
+      "惊奇"
+    ],
+    "stage3": [
+      "惊奇"
+    ],
+    "sample_stratum_label": "恐惧"
+  },
+  {
+    "item_id": "2fbe3007a8eb",
+    "stage1": [
+      "厌恶"
+    ],
+    "stage2": [
+      "恐惧",
+      "厌恶"
+    ],
+    "stage3": [
+      "厌恶",
+      "惊奇"
+    ],
+    "sample_stratum_label": "惊奇"
+  },
+  {
+    "item_id": "4608fd34f358",
+    "stage1": [
+      "快乐"
+    ],
+    "stage2": [
+      "悲伤",
+      "惊奇"
+    ],
+    "stage3": [
+      "悲伤",
+      "宁静"
+    ],
+    "sample_stratum_label": "宁静"
+  },
+  {
+    "item_id": "c97b54472654",
+    "stage1": [
+      "恐惧",
+      "厌恶"
+    ],
+    "stage2": [
+      "厌恶"
+    ],
+    "stage3": [
+      "厌恶",
+      "惊奇"
+    ],
+    "sample_stratum_label": "厌恶"
+  },
+  {
+    "item_id": "a4fcd8aa1030",
+    "stage1": [
+      "快乐"
+    ],
+    "stage2": [
+      "惊奇"
+    ],
+    "stage3": [
+      "快乐",
+      "惊奇"
+    ],
+    "sample_stratum_label": "快乐"
+  },
+  {
+    "item_id": "73ffe2c58df2",
+    "stage1": [
+      "厌恶",
+      "惊奇"
+    ],
+    "stage2": [
+      "惊奇"
+    ],
+    "stage3": [
+      "敬畏"
+    ],
+    "sample_stratum_label": "敬畏"
+  }
+]

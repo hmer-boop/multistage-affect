@@ -1,0 +1,8 @@
+{
+  "n": 120,
+  "source": "candidate_760_neg44_s3 items with complete three-stage cues",
+  "seed": 20260923,
+  "trials": 1000000,
+  "loss_against_candidate760_gpt4o": 0.06300386849666506,
+  "note": "Demo predictions are GPT-4o Base/CoT/ArtTIDE examples for format and evaluation smoke tests, not a full per-item model-output release."
+}

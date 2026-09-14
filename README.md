@@ -1,32 +1,29 @@
-# ArtTIDE Reproducibility Code
+# Multistage Affect Reproducibility Code
 
-This repository contains the reproducibility code for the ArtTIDE experiments. It is prepared for manuscript review and includes model inference scripts, improved prompting / cue-based inference scripts, and evaluation utilities.
+This repository contains review-stage reproducibility materials for a multistage affect recognition benchmark on artwork images. It includes model inference scripts, cue-assisted inference scripts, evaluation utilities, a 760-item public label and metadata subset, a limited set of low-resolution Artmajeur image files, and a 120-item demo prediction package for quick metric checks.
 
-The full dataset, raw artwork images, annotation workspace, and private data acquisition pipeline are not included at this stage. A small synthetic sample is provided only to document the expected file formats and to support quick smoke tests of the evaluation scripts.
+The full dataset, non-Artmajeur image files, high-resolution images, private annotation workspace, and private acquisition pipeline are not included at this stage. Image access and provenance are documented in `docs/IMAGE_ACCESS_STATEMENT.md`, `docs/DATA_PROVENANCE.md`, and `data/release_subset_760/provenance/image_provenance_review.xlsx`.
 
-## Repository Contents
+## Repository Layout
 
 ```text
 .
-├── 8_run_label1.py
-├── 8_run_label2.py
-├── 8_run_label3.py
-├── 1_clean data caption.py       # Initial item metadata and title translation
-├── 3_extract_min_fields.py       # Minimal stage-1/2 input extraction
-├── 4_run describe.py             # Objective image caption generation
-├── 5_all.py                      # Data-preparation runner
-├── 6.1.2_app_5raters_stage1_3s.py # Five-rater annotation app with 3-second Stage 1 viewing
-├── 7_extract data.py             # Stage input extraction from merged metadata
-├── 000test_qwen/                 # Qwen3-VL baseline and improved inference scripts
-├── 000test_InternVL/             # InternVL baseline and improved inference scripts
-├── 000test_llava/                # LLaVA-OneVision baseline and improved inference scripts
-├── 000test_gemini/               # Gemini baseline and improved inference scripts
-├── 01improvement method/         # ArtTIDE cue construction and improved GPT inference
-├── 9_evaluation/                 # Baseline evaluation scripts
-├── 9.2_evaluation_improve/       # Improved-method evaluation scripts
-├── 9.3_evaluation_ablation/      # Ablation evaluation scripts
-├── 9.4_evaluation_cot/           # Chain-of-thought evaluation scripts
-└── examples/sample_data/         # Synthetic examples for schema and smoke tests
+├── docs/                         # Release scope, data provenance, and image access notes
+├── data/
+│   └── release_subset_760/        # Public review-stage labels, metadata, provenance, and limited images
+├── src/
+│   ├── data_preparation/          # Metadata cleaning, caption generation, and stage-input extraction
+│   ├── annotation_app/            # Five-rater annotation app with 3-second Stage 1 viewing
+│   ├── cue_construction/          # Stage cue construction and cue-assisted GPT inference scripts
+│   ├── inference/                 # Base and improved inference adapters by provider/model
+│   └── evaluation/                # Base, CoT, and improved metric scripts
+├── examples/
+│   ├── schema_smoke_test/         # Small synthetic files for checking the expected schema
+│   ├── cue_sample_120/            # Representative three-stage cue examples
+│   └── demo_predictions_120/      # GPT-4o Base, CoT, and improved predictions for metric checks
+├── reports/                       # Metric audit reports for the release subset and demo package
+├── requirements.txt
+└── .gitignore
 ```
 
 ## Environment
@@ -50,22 +47,25 @@ export HF_TOKEN="..."
 
 Do not commit local `.env` files or API credentials.
 
-## Data Layout
+## Data Included
 
-The private full dataset is intentionally omitted. For a full run, place your own data using the same schema:
+The review-stage subset provides labels, sanitized metadata, source/provenance tables, and a limited set of low-resolution Artmajeur images:
 
 ```text
-dataset/
-├── images_raw/
-│   └── <item_id>.jpg
-└── metadata/
-    ├── items_stage1_2.json
-    ├── items_stage1_2_round2.json
-    └── items_min.jsonl
-
-results/
-├── gold_label.json
-└── gold_label_round2_eval_legacy.json
+data/release_subset_760/
+├── selected_ids.json
+├── labels/gold_label.json
+├── metadata/items_public.jsonl
+├── images_512/
+│   ├── README.md
+│   ├── artmajeur_images_manifest.csv
+│   └── artmajeur/
+├── provenance/
+│   ├── image_provenance_review.xlsx
+│   ├── image_provenance_review.csv
+│   ├── image_sources_manifest.csv
+│   └── image_source_sites.csv
+└── reports/
 ```
 
 Gold labels use one record per item:
@@ -94,49 +94,50 @@ Allowed affect labels:
 悲伤, 恐惧, 厌恶, 愤怒, 宁静, 快乐, 惊奇, 敬畏
 ```
 
-## Quick Evaluation Smoke Test
+## Quick Schema Smoke Test
 
-The included sample data are synthetic and are not part of the study dataset.
+The included smoke-test files are synthetic and are not part of the study dataset.
 
 ```bash
-python 9_evaluation/9.1_stage_label_accuracy_tsmr_cli.py \
-  --gold-base examples/sample_data/gold_label.json \
-  --gold-round2 examples/sample_data/gold_label_round2_eval_legacy.json \
-  --pred-stage1 examples/sample_data/pred_stage1.json \
-  --pred-stage2 examples/sample_data/pred_stage2.json \
-  --pred-stage3 examples/sample_data/pred_stage3.json \
+python src/evaluation/base/stage_label_accuracy_tsmr.py \
+  --gold-base examples/schema_smoke_test/gold_label.json \
+  --gold-round2 examples/schema_smoke_test/gold_label_round2_eval_legacy.json \
+  --pred-stage1 examples/schema_smoke_test/pred_stage1.json \
+  --pred-stage2 examples/schema_smoke_test/pred_stage2.json \
+  --pred-stage3 examples/schema_smoke_test/pred_stage3.json \
   --eval-id-mode pred
 ```
 
-For the full baseline evaluation, use:
+## Demo Prediction Check
+
+`examples/demo_predictions_120/` contains 120 review-demo items with GPT-4o Base, CoT, and improved predictions. This package lets reviewers recompute metrics and verify that the three evaluation paths share the same schema without calling external model APIs.
 
 ```bash
-python 9_evaluation/run_eval_center.py
+bash examples/demo_predictions_120/run_demo_metrics.sh
 ```
 
-For the improved-method evaluation, use:
+The expected demo-vs-paper and demo-vs-release-subset numbers are documented in:
 
-```bash
-python 9.2_evaluation_improve/run_eval_center_improve.py
+```text
+reports/demo_prediction_checks/demo_predictions_120_vs_paper_full.md
+examples/demo_predictions_120/reports/gpt4o_demo120_metrics_vs_release760.csv
 ```
-
-The registry inside each evaluation center maps model names to prediction paths. If your local paths differ, either adjust the registry or call individual metric scripts with explicit `--gold-*` and `--pred-*` arguments.
 
 ## Data Preparation
 
-The review-stage data preparation code keeps only the non-annotation path:
+The review-stage data preparation code keeps the non-private processing path:
 
 ```bash
-python "1_clean data caption.py" --src-dir "00 add description"
-python "3_extract_min_fields.py"
-python "4_run describe.py" --max 10
-python "7_extract data.py"
+python src/data_preparation/clean_data_caption.py --src-dir "00 add description"
+python src/data_preparation/extract_min_fields.py
+python src/data_preparation/generate_image_descriptions.py --max 10
+python src/data_preparation/extract_stage_inputs.py
 ```
 
 Or run the wrapper:
 
 ```bash
-python "5_all.py" --max 10
+python src/data_preparation/run_data_preparation.py --max 10
 ```
 
 ## Annotation App
@@ -144,7 +145,7 @@ python "5_all.py" --max 10
 This release includes the current five-rater annotation app. It preserves the same input and output schema while using the updated Stage 1 protocol: the raw image is shown for 3 seconds, then hidden before the rater selects the Stage 1 label.
 
 ```bash
-python "6.1.2_app_5raters_stage1_3s.py"
+python src/annotation_app/app_5raters_stage1_3s.py
 ```
 
 Then open:
@@ -167,32 +168,74 @@ results/summary.json
 results/split/shard_*.json
 ```
 
-Earlier local annotation variants, annotation work logs, and manual gold-labeling scripts are intentionally excluded.
-
 ## Running Inference
 
-Baseline scripts are grouped by model and stage. For example:
+Inference scripts are grouped first by experimental setting, then by provider/model. This reflects the experimental design: Base and improved settings share the same three-stage task structure, while each provider/model folder contains the corresponding call adapter.
+
+Example Base scripts:
 
 ```bash
-python 000test_qwen/8b-instruct/1_baseline/8_qwen8b_run_label1.py
-python 000test_qwen/8b-instruct/1_baseline/8_qwen8b_run_label2.py
-python 000test_qwen/8b-instruct/1_baseline/8_qwen8b_run_label3.py
+python src/inference/base/qwen_vl/8b_instruct/run_stage1.py
+python src/inference/base/qwen_vl/8b_instruct/run_stage2.py
+python src/inference/base/qwen_vl/8b_instruct/run_stage3.py
 ```
 
-Improved scripts are under each model's `2_improve/` directory. The GPT-based ArtTIDE cue and improved inference pipeline is under `01improvement method/`.
+Example improved scripts:
+
+```bash
+python src/inference/improved/qwen_vl/8b_instruct/run_stage1.py
+python src/inference/improved/qwen_vl/8b_instruct/run_stage2.py
+python src/inference/improved/qwen_vl/8b_instruct/run_stage3.py
+```
+
+Cue construction and GPT improved inference scripts are under:
+
+```text
+src/cue_construction/
+```
+
+## Evaluation
+
+Metric scripts are grouped by setting:
+
+```text
+src/evaluation/base/
+src/evaluation/cot/
+src/evaluation/improved/
+```
+
+For a full local baseline evaluation, use:
+
+```bash
+python src/evaluation/base/run_eval_center.py
+```
+
+For a full local improved-setting evaluation, use:
+
+```bash
+python src/evaluation/improved/run_eval_center.py
+```
+
+For CoT evaluation, use:
+
+```bash
+python src/evaluation/cot/run_eval_center.py
+```
+
+The registry inside each evaluation center maps model names to prediction paths. If your local paths differ, either adjust the registry or call individual metric scripts with explicit `--gold-*` and `--pred-*` arguments.
 
 ## Review-Stage Release Scope
 
-This repository is a review-stage code release. It excludes:
+This repository excludes:
 
-- raw artwork images;
+- the full raw/high-resolution artwork image corpus;
+- non-Artmajeur image files whose source-site permission is still unresolved;
 - full metadata and full gold labels;
-- earlier local annotation variants and annotation work logs;
-- web scraping / data acquisition scripts;
-- private upload scripts;
+- complete prediction result files beyond the review-stage demo package;
+- private acquisition, upload, and hosting scripts;
 - generated result folders, caches, and manuscript files.
 
-See `RELEASE_SCOPE.md` for the detailed include/exclude rationale.
+See `docs/RELEASE_SCOPE.md` for the detailed include/exclude rationale.
 
 ## License
 
