@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8" />
+  <title>情感轨迹标注 · 5人标注</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <style>
+    :root{
+      --bg:#ffffff; --fg:#111111; --muted:#6b7280; --line:#e5e7eb;
+      --shadow:0 8px 24px rgba(17,17,17,.06); --radius:16px;
+      --img-h:460px;
+    }
+    html,body{background:var(--bg);color:var(--fg);font-family:ui-sans-serif,system-ui,-apple-system,"PingFang SC","Microsoft YaHei","Segoe UI",Roboto,Arial,sans-serif;}
+    .wrap{max-width:1200px;margin:0 auto;padding:24px 18px 60px;}
+    .topbar{position:sticky;top:0;z-index:10;background:#0f1530;color:#e6e8ef;border-bottom:1px solid rgba(255,255,255,.08);}
+    .topbar-inner{max-width:1200px;margin:0 auto;padding:10px 18px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+    .topbar-right{display:flex;align-items:center;gap:14px;}
+    .small{font-size:13px;opacity:.8;}
+    .brand{display:flex;align-items:center;justify-content:space-between;gap:16px;}
+    .brand h1{font-size:52px;line-height:1;margin:8px 0 0;font-weight:900;letter-spacing:.4px;}
+    .chip{display:inline-flex;align-items:center;padding:6px 10px;border-radius:999px;background:#111;color:#fff;font-weight:800;font-size:12px;}
+    .hr{border:0;border-top:2.5px solid #111;margin:18px 0 26px;}
+    .stage{margin-top:18px;background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:16px;}
+    .title{font-size:20px;font-weight:800;margin-bottom:10px;}
+    .art-img{width:100%;height:var(--img-h);object-fit:contain;background:#f5f5f5;border-radius:12px;display:block;margin:8px auto 6px;}
+    .stage1-placeholder{height:var(--img-h);border:1px dashed #cbd5e1;border-radius:12px;background:#f8fafc;display:flex;align-items:center;justify-content:center;text-align:center;padding:18px;font-weight:900;color:#111;}
+    .timer-line{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:8px 0 12px;color:#374151;font-weight:800;}
+    .timer-badge{background:#111;color:#fff;border-radius:999px;padding:6px 10px;min-width:70px;text-align:center;}
+    .meta{font-size:14px;color:var(--muted);margin:6px 0 4px;}
+    .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+    @media (max-width:900px){.grid-2{grid-template-columns:1fr;}}
+    .pill-group{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:10px;}
+    @media (max-width:720px){.pill-group{grid-template-columns:repeat(2,minmax(0,1fr));}}
+    .pill{border:1.6px solid #111;background:#fff;color:#111;border-radius:999px;padding:10px 12px;text-align:center;font-weight:800;cursor:pointer;user-select:none;letter-spacing:.2px;}
+    .pill.active{background:#111;color:#fff;}
+    .row-actions{display:flex;gap:12px;justify-content:space-between;margin-top:14px;}
+    .btn{background:#fff;border:1.8px solid #111;color:#111;border-radius:12px;padding:10px 18px;font-weight:800;cursor:pointer;}
+    .btn[disabled]{opacity:.4;pointer-events:none;}
+    .label{font-size:12px;color:var(--muted);margin-bottom:4px;}
+    .box{background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px 12px;min-height:42px;}
+    .d-none{display:none !important;}
+    .warn{color:#b91c1c;font-size:13px;margin-top:8px;display:none;}
+    .summary-grid{display:grid;grid-template-columns: 1.4fr 0.9fr;gap:24px;align-items:start;}
+    @media (max-width: 980px){ .summary-grid{ grid-template-columns: 1fr; } }
+    .summary-pane{ background:#fff; border:1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding:16px; }
+    .summary-pane h3{ margin:0 0 10px; font-size:18px; font-weight:900; letter-spacing:.2px; }
+    .summary-img-wrap{ background:#f5f5f5; border:1px solid var(--line); border-radius:12px; padding:10px; }
+    .summary-img{ width:100%; height: var(--img-h); object-fit: contain; border-radius:8px; display:block; }
+    .summary-field{ margin-top:12px; }
+    .summary-tags{ display:flex; flex-direction:column; gap:10px; }
+    .summary-tag-row{ display:flex; align-items:center; gap:10px; background:#fff; border:1px solid var(--line); border-radius:12px; padding:10px 12px; }
+    .summary-tag-chip{ background:#111; color:#fff; border-radius:999px; padding:6px 10px; font-weight:800; width:max-content; }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="topbar-inner">
+      <div class="topbar-left">情感轨迹 Emotional Trajectory</div>
+      <div class="topbar-right">
+        <div class="small">账号</div>
+        <strong>{{ uid }}</strong>
+        <div class="small">进度</div>
+        <strong id="progressBadge">{{ progress }}</strong>
+        <div class="small">阶段1展示 {{ stage1_display_label }} 秒</div>
+        <a href="/logout" style="margin-left:10px;color:#e6e8ef;text-decoration:underline;">退出</a>
+      </div>
+    </div>
+  </div>
+
+  {% if item %}
+{% set default_emotions = ["悲伤", "恐惧", "厌恶", "愤怒", "宁静", "快乐", "惊奇", "敬畏"] %}
+{% set emotions = (emotions if (emotions is defined and emotions|length>0) else default_emotions) %}
+
+  <div class="wrap">
+    <div class="brand">
+      <h1>Emotional Trajectory</h1>
+      <span class="chip" id="chipStep">Step 1</span>
+    </div>
+    <div class="hr"></div>
+
+    <div class="info">
+      <div><strong>作品ID：</strong><span id="metaId">{{ item.item_id }}</span></div>
+      <div>账号：<strong>{{ uid }}</strong></div>
+    </div>
+
+    <section id="step1" class="stage">
+      <div class="title">Step 1 · 3秒观看</div>
+      <div class="timer-line">
+        <span id="stage1Hint">请先观看图片，倒计时结束后再选择情感标签。</span>
+        <span id="stage1Timer" class="timer-badge">{{ stage1_display_label }}s</span>
+      </div>
+      <img id="img_stage1" class="art-img" src="{{ item.path_raw }}" alt="">
+      <div id="stage1Placeholder" class="stage1-placeholder d-none">图片展示已结束。请根据刚才看到的画面选择你的第一时间主导情感。</div>
+      <div id="stage1Controls" class="d-none">
+        <div class="meta">请选择你第一时间的主导情感</div>
+        <div id="group1" class="pill-group">
+          {% for lab in emotions %}
+          <div class="pill" data-group="label_stage1" data-value="{{ lab }}">{{ lab }}</div>
+          {% endfor %}
+        </div>
+        <div id="warn1" class="warn">请选择一个情感后再继续。</div>
+        <div class="row-actions">
+          <button class="btn" disabled>返回上一步</button>
+          <button class="btn" id="next1">下一步</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="step2" class="stage d-none">
+      <div class="title">Step 2 · 清晰图</div>
+      <img id="img_raw_s2" class="art-img" src="{{ item.path_raw }}" alt="">
+      <div class="meta">在更充分观看后，此时你的主导情感</div>
+      <div id="group2" class="pill-group">
+        {% for lab in emotions %}
+        <div class="pill" data-group="label_stage2" data-value="{{ lab }}">{{ lab }}</div>
+        {% endfor %}
+      </div>
+      <div id="warn2" class="warn">请选择一个情感后再继续。</div>
+      <div class="row-actions">
+        <button class="btn" id="back2">返回上一步</button>
+        <button class="btn" id="next2">下一步</button>
+      </div>
+    </section>
+
+    <section id="step3" class="stage d-none">
+      <div class="title">Step 3 · 清晰图 + 文本</div>
+      <div class="grid-2">
+        <img id="img_raw_s3" class="art-img" src="{{ item.path_raw }}" alt="">
+        <div>
+          <div class="label">作品名称</div>
+          <div class="box" id="workTitle">{{ item.title_zh|default('', true) }}</div>
+          <div class="label" style="margin-top:10px;">作品描述</div>
+          <div class="box" id="workDesc">{{ item.caption_zh|default('', true) }}</div>
+        </div>
+      </div>
+      <div class="meta">在加入作品信息后，你的主导情感</div>
+      <div id="group3" class="pill-group">
+        {% for lab in emotions %}
+        <div class="pill" data-group="label_stage3" data-value="{{ lab }}">{{ lab }}</div>
+        {% endfor %}
+      </div>
+      <div id="warn3" class="warn">请选择一个情感后再继续。</div>
+      <div class="row-actions">
+        <button class="btn" id="back3">返回上一步</button>
+        <button class="btn" id="toSummary">进入汇总</button>
+      </div>
+    </section>
+
+    <section id="summary" class="stage d-none">
+      <div class="title">Summary · 汇总</div>
+      <div class="summary-grid">
+        <div class="summary-pane">
+          <h3>作品信息</h3>
+          <div class="summary-img-wrap">
+            <img id="sumImg" class="summary-img" src="{{ item.path_raw }}" alt="">
+          </div>
+          <div class="summary-field">
+            <span class="label">作品名称</span>
+            <div class="box" id="sumTitle">{{ item.title_zh|default('', true) }}</div>
+          </div>
+          <div class="summary-field">
+            <span class="label">作品描述</span>
+            <div class="box" id="sumDesc">{{ item.caption_zh|default('', true) }}</div>
+          </div>
+        </div>
+        <div class="summary-pane">
+          <h3>三阶段情感</h3>
+          <div class="summary-tags">
+            <div class="summary-tag-row"><span class="summary-tag-chip">Step 1</span><span id="s1">—</span></div>
+            <div class="summary-tag-row"><span class="summary-tag-chip">Step 2</span><span id="s2">—</span></div>
+            <div class="summary-tag-row"><span class="summary-tag-chip">Step 3</span><span id="s3">—</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="row-actions" style="margin-top:16px;">
+        <button class="btn" id="backSummary">返回上一步</button>
+        <button class="btn" id="submitAll">确认提交并下一张</button>
+      </div>
+      <div id="warnSubmit" class="warn">提交失败，请稍后重试。</div>
+    </section>
+
+    <input type="hidden" id="item_id" value="{{ item.item_id }}">
+  </div>
+
+  <script>
+    const picks = {1:null,2:null,3:null};
+    const stage1Seconds = Number("{{ stage1_display_seconds }}") || 3;
+    const chipStep = document.getElementById('chipStep');
+    let stage1TimerId = null;
+    let stage1Locked = false;
+
+    function clearStage1Timer(){
+      if(stage1TimerId){
+        clearInterval(stage1TimerId);
+        stage1TimerId = null;
+      }
+    }
+
+    function setStage1ControlsReady(){
+      clearStage1Timer();
+      stage1Locked = true;
+      document.getElementById('img_stage1').classList.add('d-none');
+      document.getElementById('stage1Placeholder').classList.remove('d-none');
+      document.getElementById('stage1Controls').classList.remove('d-none');
+      document.getElementById('stage1Hint').textContent = '请根据刚才看到的画面选择标签。';
+      document.getElementById('stage1Timer').textContent = '结束';
+    }
+
+    function startStage1Timer(){
+      clearStage1Timer();
+      if(stage1Locked){
+        setStage1ControlsReady();
+        return;
+      }
+      const img = document.getElementById('img_stage1');
+      img.classList.remove('d-none');
+      document.getElementById('stage1Placeholder').classList.add('d-none');
+      document.getElementById('stage1Controls').classList.add('d-none');
+      document.getElementById('stage1Hint').textContent = '请先观看图片，倒计时结束后再选择情感标签。';
+
+      const timer = document.getElementById('stage1Timer');
+      const endAt = Date.now() + stage1Seconds * 1000;
+      function tick(){
+        const remain = Math.max(0, endAt - Date.now());
+        timer.textContent = (remain / 1000).toFixed(1) + 's';
+        if(remain <= 0) setStage1ControlsReady();
+      }
+      tick();
+      stage1TimerId = setInterval(tick, 100);
+    }
+
+    function show(secId){
+      ['step1','step2','step3','summary'].forEach(id=>{
+        document.getElementById(id).classList.toggle('d-none', id!==secId);
+      });
+      chipStep.textContent = (secId==='summary') ? 'Summary' : secId.replace('step','Step ');
+      if(secId === 'step1') startStage1Timer();
+      else clearStage1Timer();
+      if(secId === 'step3'){
+        const s2 = document.getElementById('img_raw_s2');
+        const s3 = document.getElementById('img_raw_s3');
+        const base = (s2.getAttribute('src') || '').split('?')[0];
+        if(base) s3.setAttribute('src', base + '?t=' + Date.now());
+      }
+    }
+
+    document.querySelectorAll('.pill').forEach(el=>{
+      el.addEventListener('click', ()=>{
+        const g = el.dataset.group;
+        if(g === 'label_stage1' && !stage1Locked) return;
+        document.querySelectorAll(`.pill[data-group="${g}"]`).forEach(p=>p.classList.remove('active'));
+        el.classList.add('active');
+        if(g==='label_stage1') picks[1]=el.dataset.value;
+        if(g==='label_stage2') picks[2]=el.dataset.value;
+        if(g==='label_stage3') picks[3]=el.dataset.value;
+      });
+    });
+
+    document.getElementById('next1').onclick = ()=>{
+      if(!picks[1]) { document.getElementById('warn1').style.display='block'; return; }
+      document.getElementById('warn1').style.display='none';
+      show('step2');
+    };
+    document.getElementById('back2').onclick = ()=>show('step1');
+    document.getElementById('next2').onclick = ()=>{
+      if(!picks[2]) { document.getElementById('warn2').style.display='block'; return; }
+      document.getElementById('warn2').style.display='none';
+      show('step3');
+    };
+    document.getElementById('back3').onclick = ()=>show('step2');
+
+    document.getElementById('toSummary').onclick = ()=>{
+      if(!picks[3]) { document.getElementById('warn3').style.display='block'; return; }
+      document.getElementById('warn3').style.display='none';
+      document.getElementById('s1').textContent = picks[1];
+      document.getElementById('s2').textContent = picks[2];
+      document.getElementById('s3').textContent = picks[3];
+      document.getElementById('sumTitle').textContent = document.getElementById('workTitle')?.textContent || '';
+      document.getElementById('sumDesc').textContent  = document.getElementById('workDesc')?.textContent  || '';
+      const s3 = document.getElementById('img_raw_s3');
+      const sumImg = document.getElementById('sumImg');
+      const base = (s3.getAttribute('src') || '').split('?')[0];
+      sumImg.setAttribute('src', base ? (base + '?t=' + Date.now()) : '');
+      show('summary');
+    };
+    document.getElementById('backSummary').onclick = ()=>show('step3');
+
+    function resetForNextItem(it){
+      const bust = (url)=> url ? (url.split('?')[0] + '?t=' + Date.now()) : '';
+      document.getElementById('item_id').value = it.item_id || it.id || '';
+      document.getElementById('metaId').textContent = it.item_id || it.id || '';
+      document.getElementById('img_stage1').src = bust(it.path_raw || '');
+      document.getElementById('img_raw_s2').src = bust(it.path_raw || '');
+      document.getElementById('img_raw_s3').src = bust(it.path_raw || '');
+      document.getElementById('sumImg').src = bust(it.path_raw || '');
+      document.getElementById('workTitle').textContent = it.title_zh || it.title || '';
+      document.getElementById('workDesc').textContent = it.caption_zh || '';
+      document.getElementById('sumTitle').textContent = it.title_zh || it.title || '';
+      document.getElementById('sumDesc').textContent = it.caption_zh || '';
+      ['label_stage1','label_stage2','label_stage3'].forEach(g=>{
+        document.querySelectorAll(`.pill[data-group="${g}"]`).forEach(p=>p.classList.remove('active'));
+      });
+      picks[1]=picks[2]=picks[3]=null;
+      document.getElementById('s1').textContent='—';
+      document.getElementById('s2').textContent='—';
+      document.getElementById('s3').textContent='—';
+      document.getElementById('warnSubmit').style.display='none';
+      stage1Locked = false;
+      show('step1');
+    }
+
+    document.getElementById('submitAll').onclick = ()=>{
+      const item_id = document.getElementById('item_id').value;
+      const body = new URLSearchParams({
+        item_id,
+        label_stage1: picks[1] || '',
+        label_stage2: picks[2] || '',
+        label_stage3: picks[3] || ''
+      });
+
+      fetch('/submit', {
+        method:'POST',
+        headers:{'Content-Type':'application/x-www-form-urlencoded;charset=UTF-8'},
+        body
+      }).then(r=>r.json()).then(d=>{
+        if(d.progress){ document.getElementById('progressBadge').textContent = d.progress; }
+        if(d.status==='done'){ alert('该账号已完成全部标注'); location.href='/logout'; return; }
+        if(d.status==='ok' && d.next) resetForNextItem(d.next);
+        else document.getElementById('warnSubmit').style.display='block';
+      }).catch(()=>{
+        document.getElementById('warnSubmit').style.display='block';
+      });
+    };
+
+    show('step1');
+  </script>
+  {% else %}
+  <div class="wrap"><p>当前无可分配图片。稍后再试或 <a href="/logout">退出登录</a> 更换账号。</p></div>
+  {% endif %}
+</body>
+</html>

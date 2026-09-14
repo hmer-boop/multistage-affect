@@ -1,0 +1,14 @@
+[
+  {
+    "item_id": "sample_001",
+    "path_raw": "dataset/images_raw/sample_001.jpg",
+    "title_en": "Untitled I",
+    "caption_en": "The image contains geometric color blocks and intersecting lines, with the main area centered against a light background."
+  },
+  {
+    "item_id": "sample_002",
+    "path_raw": "dataset/images_raw/sample_002.jpg",
+    "title_en": "Red Interior",
+    "caption_en": "The image shows an interior structure, with red walls dominating the scene and simplified furniture shapes in the foreground."
+  }
+]

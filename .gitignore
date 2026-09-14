@@ -1,0 +1,31 @@
+.DS_Store
+.env
+.venv/
+__pycache__/
+*.py[cod]
+*.tmp
+*.lock
+
+# Private data and generated images
+dataset/images_raw/
+dataset_hf_upload/
+add pic/
+py.catch pic.com/
+
+# Full labels, predictions, and generated outputs
+results/
+result gpt_stage*/
+label_check_outputs/
+outputs/
+tmp/
+**/result */
+**/results/
+**/manifests/
+**/batch_outputs/
+**/*checkpoint*.json
+**/*missing_report*.json
+
+# Manuscript and local IDE files
+*.docx
+*.pdf
+.idea/

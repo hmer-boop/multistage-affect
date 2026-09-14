@@ -1,0 +1,14 @@
+[
+  {
+    "item_id": "sample_001",
+    "stage1": ["宁静"],
+    "stage2": ["宁静"],
+    "stage3": ["敬畏"]
+  },
+  {
+    "item_id": "sample_002",
+    "stage1": ["悲伤"],
+    "stage2": ["恐惧"],
+    "stage3": ["愤怒"]
+  }
+]
