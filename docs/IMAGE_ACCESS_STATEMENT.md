@@ -11,11 +11,11 @@ For transparency, the repository provides item-level labels, sanitized metadata,
 - `data/release_subset_760/provenance/image_sources_manifest.csv`
 - `data/release_subset_760/images/artmajeur_images_manifest.csv`
 
-The reviewer-facing provenance worksheet gives each item ID, local image filename, Chinese title, English title, and one `source_url`.
+The reviewer-facing provenance worksheet gives each item ID, local image filename, Chinese title, English title, one `source_url`, and, when an image file is included in this repository, a `github_image_url`.
 
-For ArtMajeur-sourced items included as image files, the corresponding files are provided under `data/release_subset_760/images/artmajeur/`. The table links are still kept for provenance and attribution.
+For ArtMajeur-sourced items included as image files, the corresponding files are provided under `data/release_subset_760/images/artmajeur/`. Their `github_image_url` values point to the image files in this repository. The original `source_url` values are still kept for provenance and attribution.
 
-For artwork items that are not included as image files, open `source_url` and search the page or site using `title_zh` and, when useful, `title_en`. When a specific work-page candidate is available, `source_url` points directly to that page. Otherwise, it points to the artist page, collection page, or broad source-site browsing page used for the supplementary image collection.
+For artwork items that are not included as image files, `github_image_url` is blank. Open `source_url` and search the page or site using `title_zh` and, when useful, `title_en`. When a specific work-page candidate is available, `source_url` points directly to that page. Otherwise, it points to the artist page, collection page, or broad source-site browsing page used for the supplementary image collection.
 
 Some source websites are dynamic or protected by browser checks, so a direct command-line lookup may not resolve every item even when the artwork can still be found manually from the artist or collection page.
 

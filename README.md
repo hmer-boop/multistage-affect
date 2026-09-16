@@ -47,6 +47,18 @@ export HF_TOKEN="..."
 
 Do not commit local `.env` files or API credentials.
 
+### What Can Be Run Without External Credentials
+
+Reviewers do not need model API credentials or the full private image corpus to run the included metric check. After installing the Python dependencies above, the following command recomputes metrics from the released 120-item demo prediction package:
+
+```bash
+bash examples/demo_predictions_120/run_demo_metrics.sh
+```
+
+This no-API path uses only files included in this repository: released gold labels, public metadata, cue examples, and saved GPT-4o Base/CoT/ArtTIDE demo predictions. It writes recomputed outputs under `examples/demo_predictions_120/reports/recomputed/`, which is ignored by git.
+
+Provider credentials are needed only if reviewers want to rerun model inference rather than inspect schemas and recompute metrics from the released demo predictions. Full local annotation or data-preparation runs may also require local input paths that are not part of this review-stage repository.
+
 ## Data Included
 
 The review-stage subset provides labels, sanitized metadata, source/provenance tables, and image files for the ArtMajeur-sourced items:

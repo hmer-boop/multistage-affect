@@ -15,10 +15,10 @@ The absence of additional image files in this repository should not be interpret
 - `data/release_subset_760/labels/gold_label.json`: gold labels for the 760-item review subset.
 - `data/release_subset_760/metadata/items_public.jsonl`: sanitized metadata for the same subset.
 - `data/release_subset_760/images/artmajeur/`: included ArtMajeur image files.
-- `data/release_subset_760/images/artmajeur_images_manifest.csv`: item-to-image manifest for the included ArtMajeur files.
-- `data/release_subset_760/provenance/image_provenance_review.xlsx`: reviewer-facing provenance workbook sorted for lookup.
+- `data/release_subset_760/images/artmajeur_images_manifest.csv`: item-to-image manifest for the included ArtMajeur files, including repository image links in `github_image_url`.
+- `data/release_subset_760/provenance/image_provenance_review.xlsx`: reviewer-facing provenance workbook sorted for lookup. The `github_image_url` column is populated for released ArtMajeur image files and left blank for items provided through source/provenance lookup only.
 - `data/release_subset_760/provenance/image_provenance_review.csv`: CSV version of the same reviewer-facing provenance table.
-- `data/release_subset_760/provenance/image_sources_manifest.csv`: item-level provenance worksheet.
+- `data/release_subset_760/provenance/image_sources_manifest.csv`: item-level provenance worksheet, including repository image links where applicable.
 - `data/release_subset_760/reports/provenance_summary.md`: current provenance-audit summary.
 - `examples/cue_sample_120/`: representative stage-level cue examples.
 - `examples/demo_predictions_120/`: review-demo prediction files that can be used to recompute metrics without external model calls.
