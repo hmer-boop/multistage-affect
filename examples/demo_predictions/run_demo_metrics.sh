@@ -2,7 +2,7 @@
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
-DEMO_DIR="$ROOT/examples/demo_predictions_120"
+DEMO_DIR="$ROOT/examples/demo_predictions"
 GOLD="$DEMO_DIR/labels/gold_label.json"
 OUT_DIR="$DEMO_DIR/reports/recomputed"
 

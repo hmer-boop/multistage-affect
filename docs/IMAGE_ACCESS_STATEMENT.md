@@ -6,14 +6,14 @@ The author received explicit permission from the ArtMajeur rights holder/source 
 
 For transparency, the repository provides item-level labels, sanitized metadata, and a provenance worksheet:
 
-- `data/release_subset_760/provenance/image_provenance_review.csv`
-- `data/release_subset_760/provenance/image_provenance_review.xlsx`
-- `data/release_subset_760/provenance/image_sources_manifest.csv`
-- `data/release_subset_760/images/artmajeur_images_manifest.csv`
+- `data/release_subset/provenance/image_provenance_review.csv`
+- `data/release_subset/provenance/image_provenance_review.xlsx`
+- `data/release_subset/provenance/image_sources_manifest.csv`
+- `data/release_subset/images/artmajeur_images_manifest.csv`
 
 The reviewer-facing provenance worksheet gives each item ID, local image filename, Chinese title, English title, one `source_url`, and, when an image file is included in this repository, a `github_image_url`.
 
-For ArtMajeur-sourced items included as image files, the corresponding files are provided under `data/release_subset_760/images/artmajeur/`. Their `github_image_url` values point to the image files in this repository. The original `source_url` values are still kept for provenance and attribution.
+For ArtMajeur-sourced items included as image files, the corresponding files are provided under `data/release_subset/images/artmajeur/`. Their `github_image_url` values point to the image files in this repository. The original `source_url` values are still kept for provenance and attribution.
 
 For artwork items that are not included as image files, `github_image_url` is blank. Open `source_url` and search the page or site using `title_zh` and, when useful, `title_en`. When a specific work-page candidate is available, `source_url` points directly to that page. Otherwise, it points to the artist page, collection page, or broad source-site browsing page used for the supplementary image collection.
 

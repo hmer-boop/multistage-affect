@@ -9,7 +9,7 @@ This audit compares the paper-level full-data metrics with the selected 760-item
 - Positive / negative: 426 / 334 = 56.05% / 43.95%
 - Public gold labels: `labels/gold_label_sample.json`
 - Public metadata: `metadata/items_sample_public.jsonl`
-- Review examples: `examples/cue_sample_120` and `examples/demo_predictions_120`
+- Review examples: `examples/cue_sample` and `examples/demo_predictions`
 
 ## Full vs 760-Item Release Subset
 

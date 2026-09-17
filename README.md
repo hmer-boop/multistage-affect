@@ -16,7 +16,7 @@
 
 This repository contains code and supporting materials for a multistage affect recognition benchmark on artwork images. It provides data-processing and annotation utilities, model inference adapters, cue-assisted inference code, evaluation scripts, human gold labels for a representative subset, sanitized metadata, provenance records, and a compact prediction package for metric verification.
 
-The repository currently provides a representative subset rather than the complete benchmark. Release scope, future availability, image access, and provenance are documented in [Review-Stage Release Scope](docs/RELEASE_SCOPE.md), [Image Access Statement](docs/IMAGE_ACCESS_STATEMENT.md), [Data Provenance](docs/DATA_PROVENANCE.md), and the [provenance workbook](data/release_subset_760/provenance/image_provenance_review.xlsx).
+The repository currently provides a representative subset rather than the complete benchmark. Release scope, future availability, image access, and provenance are documented in [Review-Stage Release Scope](docs/RELEASE_SCOPE.md), [Image Access Statement](docs/IMAGE_ACCESS_STATEMENT.md), [Data Provenance](docs/DATA_PROVENANCE.md), and the [provenance workbook](data/release_subset/provenance/image_provenance_review.xlsx).
 
 ## 🚀 Quick Start
 
@@ -31,10 +31,10 @@ pip install -r requirements.txt
 The included demonstration metrics can be recomputed without model API credentials or access to the unreleased image corpus:
 
 ```bash
-bash examples/demo_predictions_120/run_demo_metrics.sh
+bash examples/demo_predictions/run_demo_metrics.sh
 ```
 
-This command uses the released gold labels and saved Base, CoT, and ArtTIDE predictions. Recomputed outputs are written to `examples/demo_predictions_120/reports/recomputed/`, which is ignored by git.
+This command uses the released gold labels and saved Base, CoT, and ArtTIDE predictions. Recomputed outputs are written to `examples/demo_predictions/reports/recomputed/`, which is ignored by git.
 
 ## 🔍 Reproducibility Coverage
 
@@ -52,7 +52,7 @@ This command uses the released gold labels and saved Base, CoT, and ArtTIDE pred
 ├── assets/                        # README artwork strip and presentation assets
 ├── docs/                          # Release scope, provenance, and image access notes
 ├── data/
-│   └── release_subset_760/        # Review-stage labels, metadata, provenance, and images
+│   └── release_subset/        # Review-stage labels, metadata, provenance, and images
 ├── src/
 │   ├── data_preparation/          # Metadata cleaning and stage-input preparation
 │   ├── annotation_app/            # Five-rater annotation interface
@@ -61,8 +61,8 @@ This command uses the released gold labels and saved Base, CoT, and ArtTIDE pred
 │   └── evaluation/                # Base, CoT, and ArtTIDE metric scripts
 ├── examples/
 │   ├── schema_smoke_test/         # Synthetic schema-check files
-│   ├── cue_sample_120/            # Representative three-stage cue examples
-│   └── demo_predictions_120/      # Saved predictions for metric verification
+│   ├── cue_sample/            # Representative three-stage cue examples
+│   └── demo_predictions/      # Saved predictions for metric verification
 ├── reports/                       # Metric audits and comparison reports
 └── requirements.txt
 ```
@@ -78,8 +78,8 @@ Detailed documentation:
 - [Review-stage release scope](docs/RELEASE_SCOPE.md)
 - [Data provenance and image availability](docs/DATA_PROVENANCE.md)
 - [Image access statement](docs/IMAGE_ACCESS_STATEMENT.md)
-- [Released subset guide](data/release_subset_760/README.md)
-- [Image manifest](data/release_subset_760/images/artmajeur_images_manifest.csv)
+- [Released subset guide](data/release_subset/README.md)
+- [Image manifest](data/release_subset/images/artmajeur_images_manifest.csv)
 
 ## 🧪 Reproducibility Paths
 
@@ -102,13 +102,13 @@ python src/evaluation/base/stage_label_accuracy_tsmr.py \
 The included prediction package supports inspection of the common prediction schema and recomputation of the reported metric families without calling external models.
 
 ```bash
-bash examples/demo_predictions_120/run_demo_metrics.sh
+bash examples/demo_predictions/run_demo_metrics.sh
 ```
 
 Reference reports are available at:
 
-- [Demo-to-paper metric comparison](reports/demo_prediction_checks/demo_predictions_120_vs_paper_full.md)
-- [Demo-to-review-subset metric comparison](examples/demo_predictions_120/reports/gpt4o_demo120_metrics_vs_release760.csv)
+- [Demo-to-paper metric comparison](reports/demo_prediction_checks/demo_predictions_vs_paper_full.md)
+- [Demo-to-review-subset metric comparison](examples/demo_predictions/reports/gpt4o_demo_metrics_vs_release_subset.csv)
 
 ## 🛠️ Data Preparation
 

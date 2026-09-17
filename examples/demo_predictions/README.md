@@ -13,5 +13,5 @@ It is intended to let reviewers recompute metrics, inspect file schemas, and ver
 - `predictions/base/gpt4o/`: Base predictions by stage.
 - `predictions/cot/gpt4o/`: CoT predictions by stage.
 - `predictions/arttide/gpt4o/`: ArtTIDE predictions by stage.
-- `reports/gpt4o_demo120_metrics_vs_release760.csv`: demo metrics compared with the 760-item release subset.
+- `reports/gpt4o_demo_metrics_vs_release_subset.csv`: demo metrics compared with the 760-item release subset.
 
