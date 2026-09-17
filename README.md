@@ -14,9 +14,9 @@
 
 ## ✨ Overview
 
-This repository contains the review-stage code and supporting materials for a multistage affect recognition benchmark on artwork images. It provides data-processing and annotation utilities, model inference adapters, cue-assisted inference code, evaluation scripts, human gold labels for a representative review subset, sanitized metadata, provenance records, and a compact prediction package for metric verification.
+This repository contains code and supporting materials for a multistage affect recognition benchmark on artwork images. It provides data-processing and annotation utilities, model inference adapters, cue-assisted inference code, evaluation scripts, human gold labels for a representative subset, sanitized metadata, provenance records, and a compact prediction package for metric verification.
 
-The complete benchmark is not redistributed during peer review. After publication, the authors plan to release the full traceable dataset package through Hugging Face and update this repository with the dataset link, subject to copyright, source-site terms, and journal policy. Image access and provenance are documented in [Image Access Statement](docs/IMAGE_ACCESS_STATEMENT.md), [Data Provenance](docs/DATA_PROVENANCE.md), and the reviewer-facing [provenance workbook](data/release_subset_760/provenance/image_provenance_review.xlsx).
+The repository currently provides a representative subset rather than the complete benchmark. Release scope, future availability, image access, and provenance are documented in [Review-Stage Release Scope](docs/RELEASE_SCOPE.md), [Image Access Statement](docs/IMAGE_ACCESS_STATEMENT.md), [Data Provenance](docs/DATA_PROVENANCE.md), and the [provenance workbook](data/release_subset_760/provenance/image_provenance_review.xlsx).
 
 ## 🚀 Quick Start
 
@@ -28,7 +28,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Reviewers can recompute the included demonstration metrics without model API credentials or access to the unreleased image corpus:
+The included demonstration metrics can be recomputed without model API credentials or access to the unreleased image corpus:
 
 ```bash
 bash examples/demo_predictions_120/run_demo_metrics.sh
@@ -36,7 +36,7 @@ bash examples/demo_predictions_120/run_demo_metrics.sh
 
 This command uses the released gold labels and saved Base, CoT, and ArtTIDE predictions. Recomputed outputs are written to `examples/demo_predictions_120/reports/recomputed/`, which is ignored by git.
 
-## 🔍 What Reviewers Can Verify
+## 🔍 Reproducibility Coverage
 
 - Inspect the released human gold labels, sanitized metadata, and three-stage label schema.
 - Examine representative cue examples used by the cue-assisted inference path.
@@ -99,7 +99,7 @@ python src/evaluation/base/stage_label_accuracy_tsmr.py \
 
 ### Demonstration Metric Check
 
-The included prediction package allows reviewers to inspect the common prediction schema and recompute the reported metric families without calling external models.
+The included prediction package supports inspection of the common prediction schema and recomputation of the reported metric families without calling external models.
 
 ```bash
 bash examples/demo_predictions_120/run_demo_metrics.sh
@@ -153,7 +153,7 @@ src/evaluation/cot/
 src/evaluation/improved/
 ```
 
-Each folder contains the applicable metric implementations and a `run_eval_center.py` helper for full local experiments. The included demonstration command is the recommended reviewer-facing entry point. See [`src/evaluation/README.md`](src/evaluation/README.md) for details.
+Each folder contains the applicable metric implementations and a `run_eval_center.py` helper for full local experiments. The included demonstration command is the recommended quick verification entry point. See [`src/evaluation/README.md`](src/evaluation/README.md) for details.
 
 ## 📖 Citation
 
@@ -161,10 +161,10 @@ Citation information will be added after publication. This repository will be up
 
 ## ⚖️ Usage and Copyright
 
-No open-source license is granted for this review-stage repository. Unless otherwise stated, the code, annotations, metadata, and documentation are provided for scholarly review and reproducibility inspection, with all rights reserved by their respective copyright holders.
+No open-source license is granted for this repository. Unless otherwise stated, the code, annotations, metadata, and documentation are provided for scholarly use and reproducibility inspection, with all rights reserved by their respective copyright holders.
 
 Copyright in the artwork images remains with the respective artists. Their inclusion does not create a blanket license for commercial use or unrestricted redistribution. Consult the image manifest, source records, and [Image Access Statement](docs/IMAGE_ACCESS_STATEMENT.md) for attribution and use information.
 
 ## 📬 Questions and Rights Concerns
 
-For technical questions or rights-related concerns during peer review, please open a GitHub issue. Author, publication, citation, and archival dataset information will be added after acceptance.
+For technical questions or rights-related concerns, please open a GitHub issue. Author, publication, citation, and archival dataset information will be added after acceptance.

@@ -33,7 +33,7 @@ This folder was prepared as a conservative GitHub release for manuscript submiss
 
 The goal is to let reviewers inspect and reproduce the experimental logic without exposing the complete private dataset during review. The image-file subset reflects a conservative redistribution choice for the review stage; the remaining released items are still traceable through metadata, titles, and source links.
 
-After publication, the authors plan to prepare a full benchmark release package on Hugging Face and update this GitHub repository with the dataset link. The post-publication release is expected to include full labels, metadata, provenance information, and image files where redistribution is permitted, subject to copyright, source-site terms, consent, and journal policy constraints.
+After acceptance, the authors plan to release complete traceable provenance information for the full benchmark through Hugging Face and update this GitHub repository with the dataset link. The release is expected to include the full labels, metadata, and provenance records, together with image files where redistribution is permitted, subject to copyright, source-site terms, consent, and journal policy constraints.
 
 ## Before Public Upload
 
