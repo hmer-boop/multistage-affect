@@ -4,6 +4,8 @@ This repository contains review-stage reproducibility materials for a multistage
 
 The full dataset, image files beyond the currently released ArtMajeur-sourced subset, private annotation workspace, and private acquisition pipeline are not included at this stage. Image access and provenance are documented in `docs/IMAGE_ACCESS_STATEMENT.md`, `docs/DATA_PROVENANCE.md`, and `data/release_subset_760/provenance/image_provenance_review.xlsx`.
 
+After publication, the authors plan to prepare a full benchmark release package on Hugging Face and update this GitHub repository with the dataset link. The post-publication release is expected to include full labels, metadata, provenance information, and image files where redistribution is permitted, subject to copyright, source-site terms, and journal policy.
+
 ## Repository Layout
 
 ```text
