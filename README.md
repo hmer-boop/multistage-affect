@@ -1,36 +1,26 @@
 # Multistage Affect Reproducibility Code
 
-This repository contains review-stage reproducibility materials for a multistage affect recognition benchmark on artwork images. It includes model inference scripts, cue-assisted inference scripts, evaluation utilities, a 760-item public label and metadata subset, image files for the ArtMajeur-sourced items, and a 120-item demo prediction package for quick metric checks.
+<p align="center">
+  Reproducibility materials for multistage affect recognition on artwork images
+</p>
 
-The full dataset, image files beyond the currently released ArtMajeur-sourced subset, private annotation workspace, and private acquisition pipeline are not included at this stage. Image access and provenance are documented in `docs/IMAGE_ACCESS_STATEMENT.md`, `docs/DATA_PROVENANCE.md`, and `data/release_subset_760/provenance/image_provenance_review.xlsx`.
+<p align="center">
+  <img src="assets/readme/artwork_samples.png" alt="Representative artwork samples" width="100%">
+</p>
 
-After publication, the authors plan to prepare a full benchmark release package on Hugging Face and update this GitHub repository with the dataset link. The post-publication release is expected to include full labels, metadata, provenance information, and image files where redistribution is permitted, subject to copyright, source-site terms, and journal policy.
+<p align="center"><em>Representative artwork samples. Copyright remains with the respective artists; source and attribution information is provided in the image manifest.</em></p>
 
-## Repository Layout
+---
 
-```text
-.
-├── docs/                         # Release scope, data provenance, and image access notes
-├── data/
-│   └── release_subset_760/        # Public review-stage labels, metadata, provenance, and limited images
-├── src/
-│   ├── data_preparation/          # Metadata cleaning, caption generation, and stage-input extraction
-│   ├── annotation_app/            # Five-rater annotation app with 3-second Stage 1 viewing
-│   ├── cue_construction/          # Stage cue construction and cue-assisted GPT inference scripts
-│   ├── inference/                 # Base and improved inference adapters by provider/model
-│   └── evaluation/                # Base, CoT, and improved metric scripts
-├── examples/
-│   ├── schema_smoke_test/         # Small synthetic files for checking the expected schema
-│   ├── cue_sample_120/            # Representative three-stage cue examples
-│   └── demo_predictions_120/      # GPT-4o Base, CoT, and improved predictions for metric checks
-├── reports/                       # Metric audit reports for the release subset and demo package
-├── requirements.txt
-└── .gitignore
-```
+## ✨ Overview
 
-## Environment
+This repository contains the review-stage code and supporting materials for a multistage affect recognition benchmark on artwork images. It provides data-processing and annotation utilities, model inference adapters, cue-assisted inference code, evaluation scripts, human gold labels for a representative review subset, sanitized metadata, provenance records, and a compact prediction package for metric verification.
 
-Python 3.10+ is recommended.
+The complete benchmark is not redistributed during peer review. After publication, the authors plan to release the full traceable dataset package through Hugging Face and update this repository with the dataset link, subject to copyright, source-site terms, and journal policy. Image access and provenance are documented in [Image Access Statement](docs/IMAGE_ACCESS_STATEMENT.md), [Data Provenance](docs/DATA_PROVENANCE.md), and the reviewer-facing [provenance workbook](data/release_subset_760/provenance/image_provenance_review.xlsx).
+
+## 🚀 Quick Start
+
+Python 3.10 or later is recommended.
 
 ```bash
 python -m venv .venv
@@ -38,79 +28,64 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Model-running scripts require the corresponding provider credentials only when you actually run inference:
-
-```bash
-export OPENAI_API_KEY="..."
-export DASHSCOPE_API_KEY="..."
-export GEMINI_API_KEY="..."
-export HF_TOKEN="..."
-```
-
-Do not commit local `.env` files or API credentials.
-
-### What Can Be Run Without External Credentials
-
-Reviewers do not need model API credentials or the full private image corpus to run the included metric check. After installing the Python dependencies above, the following command recomputes metrics from the released 120-item demo prediction package:
+Reviewers can recompute the included demonstration metrics without model API credentials or access to the unreleased image corpus:
 
 ```bash
 bash examples/demo_predictions_120/run_demo_metrics.sh
 ```
 
-This no-API path uses only files included in this repository: released gold labels, public metadata, cue examples, and saved GPT-4o Base/CoT/ArtTIDE demo predictions. It writes recomputed outputs under `examples/demo_predictions_120/reports/recomputed/`, which is ignored by git.
+This command uses the released gold labels and saved Base, CoT, and ArtTIDE predictions. Recomputed outputs are written to `examples/demo_predictions_120/reports/recomputed/`, which is ignored by git.
 
-Provider credentials are needed only if reviewers want to rerun model inference rather than inspect schemas and recompute metrics from the released demo predictions. Full local annotation or data-preparation runs may also require local input paths that are not part of this review-stage repository.
+## 🔍 What Reviewers Can Verify
 
-## Data Included
+- Inspect the released human gold labels, sanitized metadata, and three-stage label schema.
+- Examine representative cue examples used by the cue-assisted inference path.
+- Recompute Base, CoT, and ArtTIDE metrics from the included demonstration predictions without paid API calls.
+- Inspect the inference adapters and the shared evaluation implementation.
+- Review included artwork files and trace other released items through their titles and source records.
+- Run the annotation interface and inspect its input and output schema.
 
-The review-stage subset provides labels, sanitized metadata, source/provenance tables, and image files for the ArtMajeur-sourced items:
-
-```text
-data/release_subset_760/
-├── selected_ids.json
-├── labels/gold_label.json
-├── metadata/items_public.jsonl
-├── images/
-│   ├── README.md
-│   ├── artmajeur_images_manifest.csv
-│   └── artmajeur/
-├── provenance/
-│   ├── image_provenance_review.xlsx
-│   ├── image_provenance_review.csv
-│   ├── image_sources_manifest.csv
-│   └── image_source_sites.csv
-└── reports/
-```
-
-Gold labels use one record per item:
-
-```json
-{
-  "item_id": "sample_001",
-  "stage1": ["宁静"],
-  "stage2": ["宁静"],
-  "stage3": ["敬畏"]
-}
-```
-
-Prediction files use one record per item and may use either `stageN` or `stageN_label`:
-
-```json
-{
-  "item_id": "sample_001",
-  "stage1": "宁静"
-}
-```
-
-Allowed affect labels:
+## 📁 Repository Structure
 
 ```text
-悲伤, 恐惧, 厌恶, 愤怒, 宁静, 快乐, 惊奇, 敬畏
+.
+├── assets/                        # README artwork strip and presentation assets
+├── docs/                          # Release scope, provenance, and image access notes
+├── data/
+│   └── release_subset_760/        # Review-stage labels, metadata, provenance, and images
+├── src/
+│   ├── data_preparation/          # Metadata cleaning and stage-input preparation
+│   ├── annotation_app/            # Five-rater annotation interface
+│   ├── cue_construction/          # Three-stage cue construction
+│   ├── inference/                 # Base and cue-assisted model adapters
+│   └── evaluation/                # Base, CoT, and ArtTIDE metric scripts
+├── examples/
+│   ├── schema_smoke_test/         # Synthetic schema-check files
+│   ├── cue_sample_120/            # Representative three-stage cue examples
+│   └── demo_predictions_120/      # Saved predictions for metric verification
+├── reports/                       # Metric audits and comparison reports
+└── requirements.txt
 ```
 
-## Quick Schema Smoke Test
+## 🧾 Data and Image Access
 
-The included smoke-test files are synthetic and are not part of the study dataset.
+The repository provides a representative review subset with human gold labels, sanitized metadata, provenance tables, and artwork files where direct redistribution is supported by the documented permission. Other released items remain traceable through title and source information.
+
+ArtMajeur has provided written confirmation permitting the inclusion of ArtMajeur-sourced images in this non-commercial academic release with proper attribution. Copyright in each artwork remains with the respective artist. The image files are not covered by a general software license and must not be interpreted as granting unrestricted commercial or downstream redistribution rights.
+
+Detailed documentation:
+
+- [Review-stage release scope](docs/RELEASE_SCOPE.md)
+- [Data provenance and image availability](docs/DATA_PROVENANCE.md)
+- [Image access statement](docs/IMAGE_ACCESS_STATEMENT.md)
+- [Released subset guide](data/release_subset_760/README.md)
+- [Image manifest](data/release_subset_760/images/artmajeur_images_manifest.csv)
+
+## 🧪 Reproducibility Paths
+
+### Schema Smoke Test
+
+The smoke-test files are synthetic and are not part of the study dataset.
 
 ```bash
 python src/evaluation/base/stage_label_accuracy_tsmr.py \
@@ -122,95 +97,55 @@ python src/evaluation/base/stage_label_accuracy_tsmr.py \
   --eval-id-mode pred
 ```
 
-## Demo Prediction Check
+### Demonstration Metric Check
 
-`examples/demo_predictions_120/` contains 120 review-demo items with GPT-4o Base, CoT, and improved predictions. This package lets reviewers recompute metrics and verify that the three evaluation paths share the same schema without calling external model APIs.
+The included prediction package allows reviewers to inspect the common prediction schema and recompute the reported metric families without calling external models.
 
 ```bash
 bash examples/demo_predictions_120/run_demo_metrics.sh
 ```
 
-The expected demo-vs-paper and demo-vs-release-subset numbers are documented in:
+Reference reports are available at:
 
-```text
-reports/demo_prediction_checks/demo_predictions_120_vs_paper_full.md
-examples/demo_predictions_120/reports/gpt4o_demo120_metrics_vs_release760.csv
-```
+- [Demo-to-paper metric comparison](reports/demo_prediction_checks/demo_predictions_120_vs_paper_full.md)
+- [Demo-to-review-subset metric comparison](examples/demo_predictions_120/reports/gpt4o_demo120_metrics_vs_release760.csv)
 
-## Data Preparation
+## 🛠️ Data Preparation
 
-The review-stage data preparation code keeps the non-private processing path:
-
-```bash
-python src/data_preparation/clean_data_caption.py --src-dir "00 add description"
-python src/data_preparation/extract_min_fields.py
-python src/data_preparation/generate_image_descriptions.py --max 10
-python src/data_preparation/extract_stage_inputs.py
-```
-
-Or run the wrapper:
+The repository retains the non-private processing path used to clean metadata and prepare stage inputs:
 
 ```bash
 python src/data_preparation/run_data_preparation.py --max 10
 ```
 
-## Annotation App
+Individual processing utilities are located in [`src/data_preparation/`](src/data_preparation/).
 
-This release includes the current five-rater annotation app. It preserves the same input and output schema while using the updated Stage 1 protocol: the raw image is shown for 3 seconds, then hidden before the rater selects the Stage 1 label.
+## 🗂️ Annotation Protocol
+
+The included annotation interface implements the five-rater protocol. During Stage 1, the artwork is displayed for three seconds and then hidden before the rater selects a label. The input and output schema is retained across all stages.
 
 ```bash
 python src/annotation_app/app_5raters_stage1_3s.py
 ```
 
-Then open:
+Then open `http://127.0.0.1:5004/rules` in a browser. The application expects input under `dataset/metadata/` and writes annotation results under `results/`.
 
-```text
-http://127.0.0.1:5004/rules
-```
+## 🤖 Running Model Inference
 
-The app reads:
-
-```text
-dataset/metadata/items_merged.jsonl
-```
-
-The app writes:
-
-```text
-results/results.jsonl
-results/summary.json
-results/split/shard_*.json
-```
-
-## Running Inference
-
-Inference scripts are grouped first by experimental setting, then by provider/model. This reflects the experimental design: Base and improved settings share the same three-stage task structure, while each provider/model folder contains the corresponding call adapter.
-
-Example Base scripts:
+Inference requires credentials only when calling external model providers. Set the credentials for the providers you intend to use:
 
 ```bash
-python src/inference/base/qwen_vl/8b_instruct/run_stage1.py
-python src/inference/base/qwen_vl/8b_instruct/run_stage2.py
-python src/inference/base/qwen_vl/8b_instruct/run_stage3.py
+export OPENAI_API_KEY="..."
+export DASHSCOPE_API_KEY="..."
+export GEMINI_API_KEY="..."
+export HF_TOKEN="..."
 ```
 
-Example improved scripts:
+Do not commit local `.env` files or credentials. Base and cue-assisted scripts share the same three-stage task schema; provider and model folders contain the corresponding call adapters. See [`src/inference/README.md`](src/inference/README.md) for the folder conventions and entry points.
 
-```bash
-python src/inference/improved/qwen_vl/8b_instruct/run_stage1.py
-python src/inference/improved/qwen_vl/8b_instruct/run_stage2.py
-python src/inference/improved/qwen_vl/8b_instruct/run_stage3.py
-```
+## 📐 Evaluation
 
-Cue construction and GPT improved inference scripts are under:
-
-```text
-src/cue_construction/
-```
-
-## Evaluation
-
-Metric scripts are grouped by setting:
+Evaluation scripts are organized by experimental setting:
 
 ```text
 src/evaluation/base/
@@ -218,39 +153,18 @@ src/evaluation/cot/
 src/evaluation/improved/
 ```
 
-For a full local baseline evaluation, use:
+Each folder contains the applicable metric implementations and a `run_eval_center.py` helper for full local experiments. The included demonstration command is the recommended reviewer-facing entry point. See [`src/evaluation/README.md`](src/evaluation/README.md) for details.
 
-```bash
-python src/evaluation/base/run_eval_center.py
-```
+## 📖 Citation
 
-For a full local improved-setting evaluation, use:
+Citation information will be added after publication. This repository will be updated with the article citation, persistent identifier, and full Hugging Face dataset link when they become available.
 
-```bash
-python src/evaluation/improved/run_eval_center.py
-```
+## ⚖️ Usage and Copyright
 
-For CoT evaluation, use:
+No open-source license is granted for this review-stage repository. Unless otherwise stated, the code, annotations, metadata, and documentation are provided for scholarly review and reproducibility inspection, with all rights reserved by their respective copyright holders.
 
-```bash
-python src/evaluation/cot/run_eval_center.py
-```
+Copyright in the artwork images remains with the respective artists. Their inclusion does not create a blanket license for commercial use or unrestricted redistribution. Consult the image manifest, source records, and [Image Access Statement](docs/IMAGE_ACCESS_STATEMENT.md) for attribution and use information.
 
-The registry inside each evaluation center maps model names to prediction paths. If your local paths differ, either adjust the registry or call individual metric scripts with explicit `--gold-*` and `--pred-*` arguments.
+## 📬 Questions and Rights Concerns
 
-## Review-Stage Release Scope
-
-This repository excludes:
-
-- the full raw/high-resolution artwork image corpus;
-- additional artwork image files beyond the currently released ArtMajeur-sourced subset;
-- full metadata and full gold labels;
-- complete prediction result files beyond the review-stage demo package;
-- private acquisition, upload, and hosting scripts;
-- generated result folders, caches, and manuscript files.
-
-See `docs/RELEASE_SCOPE.md` for the detailed include/exclude rationale.
-
-## License
-
-No open-source license has been selected yet. Until a license is added, all rights are reserved by the authors. Choose a license before making a permanent public archival release.
+For technical questions or rights-related concerns during peer review, please open a GitHub issue. Author, publication, citation, and archival dataset information will be added after acceptance.
